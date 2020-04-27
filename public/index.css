@@ -1,0 +1,161 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #f7f4f1;
+    font-family: 'Titillium Web', sans-serif;
+}
+.headerImage {  
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+    background: url("./images/FW43Header1.png") no-repeat center;
+    background-size: cover;
+}
+
+.container{
+    width: 80%;
+    background: #1e1e1e;
+    opacity: .9;
+    border: 3px solid #e10600;
+    border-radius: 10px;
+    padding: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.container h1 {
+    font-size: 72px;
+    letter-spacing: 0.2em;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.container h1 span {
+    border: 10px solid white;
+    border-radius: 10px;
+    padding: 6px 14px;
+    display: inline-block;
+}
+
+.btn {
+    color: white;
+    padding: 15px 24px;
+    font-size: 20px;
+    text-decoration: none;
+    background: #e10600;
+    border: 3px solid #e10600;
+    border-radius: 5px;
+    transition-duration: .4s;
+}
+
+.btn:hover {
+    color: black;
+    background: white;
+}
+
+.logo{
+    cursor: pointer;
+    margin: 0;
+    padding: 10px;
+    border-radius: 5px;
+    background: white;
+    opacity: 1;
+    height: 48px;
+    width: 64px;
+}
+.navBar li, a, button {
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+.navBar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: #e10600;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 25px;
+}
+
+.nav_links li a{
+    transition-duration: .4s;
+}
+
+.nav_links li a:hover{
+    color: black;
+}
+
+.mainContent {
+    background: #ffffff;
+    margin-top: 0;
+    margin-left: 4%;
+    margin-right: 4%;
+    width: 92%;
+    text-align: center;
+    padding: 0;
+}
+
+.driversChamp {
+    margin-left: 4%;
+    margin-right: 4%;
+    width: 92%;
+}
+
+.driversChamp h1 {
+    margin-top: 0;
+    padding-top: 50px;
+    font-size: 72px;
+}
+
+.driversChamp table {
+    width: 100%;
+    letter-spacing: 0.1em;
+    border-spacing: 0;
+    margin-bottom: 50px;
+}
+
+tbody {
+    border-top: black;
+}
+
+tbody tr:nth-child(odd){
+    background: #f4f4f4;
+}
+
+.driverChampTable td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer {
+    border-top: 10px solid #e10600;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 200px;
+    background: #15151e;
+    text-align: center;
+}
+
+
+footer h1 {
+    color: white;
+    font-size: 58px;
+    margin: 0;
+    padding: 30px;
+}
