@@ -1,0 +1,33 @@
+<%- include("./partials/header") %>
+    <div class="mainContent">
+        <div id="driversList" class="driversChamp">
+            <h1>2020 Driver Standings</h1>
+            <table class="driverChampTable">
+                <thead>
+                    <tr>
+                        <th>POS</th>
+                        <th>DRIVER</th>
+                        <th>CAR</th>
+                        <th>PTS</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% driverStat.map(driver => { %>
+                        <tr>
+                            <td><%= driver.position %></td>
+                            <td><%= driver.driver %></td>
+                            <td><%= driver.team %></td>
+                            <td><%= driver.points %></td>
+                        </tr>
+                    <% }) %>
+                </tbody>
+                
+            </table>
+        </div>
+        <div class="constructorsChamp">
+            <table class="constructorChampTable">
+
+            </table>
+        </div>
+    </div>    
+    <%- include("./partials/footer") %>

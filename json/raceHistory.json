@@ -1,0 +1,22 @@
+{
+    "2020": [
+        {
+            "Grand Prix": "USA",
+            "Date": "26/04/2020",
+            "Image": "2020USARace.png",
+            "Winner": "StarfoxF1",
+            "2ndPlace": "KillaRamo2",
+            "3rdPlace": "FatedRacer14130",
+            "FastestLap": "OpsAngel98",
+            "Standings": [
+                { "name": "StarfoxF1", "points": 25 },
+                { "name": "KillaRamo3", "points": 18 },
+                { "name": "FatedRacer14130", "points": 15 },
+                { "name": "Yigitalp2631", "points": 12 },
+                { "name": "HoneyBadger6725", "points": 10 },
+                { "name": "OpsAngel98", "points": 9 },
+                { "name": "SiLaHeNdaZ", "points": 6 }
+            ]
+        }
+    ]
+}

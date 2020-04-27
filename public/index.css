@@ -141,7 +141,16 @@ tbody tr:nth-child(odd){
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
+/* RACE CONTAINER */
+.raceContainer {
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+}
+.raceContainer img {
+    position: relative;
+}
+/* FOOTER */
 footer {
     border-top: 10px solid #e10600;
     margin: 0;
