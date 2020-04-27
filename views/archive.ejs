@@ -1,13 +1,34 @@
 <%- include("./partials/header") %>
+<div class="archiveContainer">
+    <% archive["2020"].map(event => { %>
+        <div class="card">
+            <div class="card-image" style="background:url('<%- event["Image"] %>');"></div>
+            <div class="card-text">
+                <span class="date"><%= event["Date"] %></span>
+                <h2><%= event["Grand Prix"] %></h2>
+                <a class="btn" href="/archive/<%=event['race_id']%>/show">Full Standings</a>
+            </div>
+            <div class="card-stats">
+                <div class="stat left-top">
+                    <div class="value"><%= event["Winner"] %></div>
+                    <div class="type">1ST</div>
+                </div>
+                <div class="stat right-top">
+                    <div class="value"><%= event["2ndPlace"] %></div>
+                    <div class="type">2ND</div>
+                </div>                
+                <div class="stat left-bot">
+                    <div class="value"><%= event["3rdPlace"] %></div>
+                    <div class="type">3RD</div>
+                </div>
+                <div class="stat right-bot">
+                    <div class="value"><%= event["FastestLap"] %></div>
+                    <div class="type">FASTEST</div>
+                </div>
+            </div>
+        </div>
 
-<div class="card">
-    <div class="card-image"></div>
-    <div class="card-text">
-        <span class="date"><%= archive["2020"][0]["Date"] %></span>
-        <h2><%= archive["2020"][0]["Grand Prix"] %></h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, porro.</p>
-    </div>
-    <div class="card-stats"></div>
+    <% }) %>
+    
 </div>
-
 <%- include("./partials/footer") %>

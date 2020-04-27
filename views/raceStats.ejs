@@ -1,0 +1,33 @@
+<%- include("./partials/header") %>
+<link rel="stylesheet" href="index.css">
+<div class="mainContent">
+    <div id="driversList" class="driversChamp">
+        <h1>2020 <%=foundRace["Grand Prix"]%> Results</h1>
+        <table class="driverChampTable">
+            <thead>
+                <tr>
+                    <th>POS</th>
+                    <th>DRIVER</th>
+                    <th>CAR</th>
+                    <th>PTS</th>
+                </tr>
+            </thead>
+            <tbody>
+                <% foundRace["Standings"].map(driver => { %>
+                    <tr>
+                        <td><%= driver.position %></td>
+                        <td><%= driver.driver %></td>
+                        <td><%= driver.team %></td>
+                        <td><%= driver.points %></td>
+                    </tr>
+                <% }) %>
+            </tbody>            
+        </table>
+    </div>
+    <div class="constructorsChamp">
+        <table class="constructorChampTable">
+
+        </table>
+    </div>
+</div>
+<%- include("./partials/footer") %>

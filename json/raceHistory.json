@@ -1,6 +1,7 @@
 {
     "2020": [
         {
+            "race_id": 1,
             "Grand Prix": "USA",
             "Date": "26/04/2020",
             "Image": "2020USARace.png",
@@ -9,13 +10,32 @@
             "3rdPlace": "FatedRacer14130",
             "FastestLap": "OpsAngel98",
             "Standings": [
-                { "name": "StarfoxF1", "points": 25 },
-                { "name": "KillaRamo3", "points": 18 },
-                { "name": "FatedRacer14130", "points": 15 },
-                { "name": "Yigitalp2631", "points": 12 },
-                { "name": "HoneyBadger6725", "points": 10 },
-                { "name": "OpsAngel98", "points": 9 },
-                { "name": "SiLaHeNdaZ", "points": 6 }
+                { "position": 1, "driver": "StarfoxF1", "team": "RACING POINT", "points": 25 },
+                { "position": 2,  "driver": "KillaRamo3", "team": "FERRARI", "points": 18 },
+                { "position": 3,  "driver": "FatedRacer14130", "team": "RACING POINT", "points": 15 },
+                { "position": 4,  "driver": "Yigitalp2631", "team": "MERCEDES", "points": 12 },
+                { "position": 5,  "driver": "HoneyBadger6725", "team": "REDBULL", "points": 10 },
+                { "position": 6,  "driver": "OpsAngel98", "team": "REDBULL", "points": 9 },
+                { "position": 7,  "driver": "SiLaHeNdaZ", "team": "MERCEDES", "points": 6 }
+            ]
+        },
+        {
+            "race_id": 2,
+            "Grand Prix": "MEXICO",
+            "Date": "23/04/2020",
+            "Image": "2020USARace.png",
+            "Winner": "StarfoxF1",
+            "2ndPlace": "KillaRamo2",
+            "3rdPlace": "FatedRacer14130",
+            "FastestLap": "OpsAngel98",
+            "Standings": [
+                { "position": 1, "driver": "StarfoxF1", "team": "RACING POINT", "points": 25 },
+                { "position": 2,  "driver": "KillaRamo3", "team": "FERRARI", "points": 18 },
+                { "position": 3,  "driver": "FatedRacer14130", "team": "RACING POINT", "points": 15 },
+                { "position": 4,  "driver": "Yigitalp2631", "team": "MERCEDES", "points": 12 },
+                { "position": 5,  "driver": "HoneyBadger6725", "team": "REDBULL", "points": 10 },
+                { "position": 6,  "driver": "OpsAngel98", "team": "REDBULL", "points": 9 },
+                { "position": 7,  "driver": "SiLaHeNdaZ", "team": "MERCEDES", "points": 6 }
             ]
         }
     ]
