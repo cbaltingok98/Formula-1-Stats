@@ -11,7 +11,9 @@ let driverStat = [
     { "position": 10, "driver": "OpsAngel98", "team": "REDBULL", "points": 15 }
 ];
 
-
+driverStat.sort(function(a, b) {
+    return b.points - a.points;
+});
 
 
 
