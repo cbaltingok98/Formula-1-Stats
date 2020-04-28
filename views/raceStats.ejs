@@ -3,6 +3,12 @@
 <div class="mainContent">
     <div id="driversList" class="driversChamp">
         <h1>2020 <%=foundRace["Grand Prix"]%> Results</h1>
+        <div class="monument">
+            <h2 class="circle-txt winner"><i class="fas fa-trophy"></i><%=foundRace["Winner"] %></h2v>
+            <h2 class="circle-txt second"><i class="fas fa-trophy"></i><%=foundRace["2ndPlace"] %></h2>
+            <h2 class="circle-txt third"><i class="fas fa-trophy"></i><%=foundRace["3rdPlace"] %></h2>
+            <h2 class="circle-txt fastest"><i class="fas fa-fighter-jet"></i><%=foundRace["FastestLap"] %></h2>
+        </div>
         <table class="driverChampTable">
             <thead>
                 <tr>

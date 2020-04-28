@@ -235,6 +235,42 @@ tbody tr:nth-child(odd){
 .card-stats .right-top {
     border-bottom: 2px solid #e10600;   
 }
+
+.monument {
+    margin-bottom: 40px;
+}
+
+.monument h2 {
+    display: inline-block;
+    border-left: 3px solid #e10600;
+    border-bottom: 4px solid #e10600;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.monument h2 i {
+    font-size: 26px;
+    padding: 5px;
+    margin-right: 3px;
+}
+
+.monument .winner i {
+    color: gold;
+}
+
+.monument .second i {
+    color: silver;
+}
+
+.monument .third i {
+    color: #cd7f32;
+}
+
+.monument .fastest i {
+    color: #e10600;
+}
+
 /* FOOTER */
 footer {
     border-top: 10px solid #e10600;
