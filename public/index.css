@@ -160,7 +160,7 @@ footer h1 {
     padding: 30px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 500px) {
     .headerImage {
         height: 300px;
     }
@@ -188,5 +188,6 @@ footer h1 {
     }
     footer h1 {
         font-size: 32px;
+        padding: 15px;
     }
   }
