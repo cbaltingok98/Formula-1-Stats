@@ -24,18 +24,19 @@
             "Grand Prix": "MEXICO",
             "Date": "23/04/2020",
             "Image": "2020USARace.png",
-            "Winner": "StarfoxF1",
-            "2ndPlace": "KillaRamo2",
-            "3rdPlace": "FatedRacer14130",
-            "FastestLap": "OpsAngel98",
+            "Winner": "KillaRamo2",
+            "2ndPlace": "FatedRacer14130",
+            "3rdPlace": "StarfoxF1",
+            "FastestLap": "FatedRacer14130",
             "Standings": [
-                { "position": 1, "driver": "StarfoxF1", "team": "RACING POINT", "points": 25 },
-                { "position": 2,  "driver": "KillaRamo3", "team": "FERRARI", "points": 18 },
-                { "position": 3,  "driver": "FatedRacer14130", "team": "RACING POINT", "points": 15 },
+                { "position": 1, "driver": "KillaRamo2", "team": "FERRARI", "points": 25 },
+                { "position": 2,  "driver": "FatedRacer14130", "team": "RACING POIN", "points": 19 },
+                { "position": 3,  "driver": "StarfoxF1", "team": "RACING POINT", "points": 15 },
                 { "position": 4,  "driver": "Yigitalp2631", "team": "MERCEDES", "points": 12 },
                 { "position": 5,  "driver": "HoneyBadger6725", "team": "REDBULL", "points": 10 },
-                { "position": 6,  "driver": "OpsAngel98", "team": "REDBULL", "points": 9 },
-                { "position": 7,  "driver": "SiLaHeNdaZ", "team": "MERCEDES", "points": 6 }
+                { "position": 6,  "driver": "GM ManyEx", "team": "FERRARI", "points": 8 },
+                { "position": 7,  "driver": "OpsAngel98", "team": "REDBULL", "points": 6 },
+                { "position": 8,  "driver": "SiLaHeNdaZ", "team": "MERCEDES", "points": 4 }
             ]
         }
     ]
