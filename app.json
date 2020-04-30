@@ -1,6 +1,6 @@
 {
     "name": "Node.js Formula 1",
     "description" : "Fair Play League Standings Website",
-    "repository": "https://github.com/cbaltingok98/Formula-1-Stats.git",
+    "repository": "https://git.heroku.com/formula1-standings.git",
     "keywords" : ["node", "express", "static"]
 }
