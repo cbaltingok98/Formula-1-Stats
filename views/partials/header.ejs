@@ -5,23 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="index.css">
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>Formula 1 Standings</title>
 </head>
 <body>
     <div class="headerImage">
-        <div class="container">
+        <div class="myContainer">
             <h1><span>Fair Play Racing League</span></h1>
-            <a class="btn" href="#">Join Us</a>
+            <a class="myButton" href="#">Join Us</a>
         </div>
     </div>
-    <div class="navBar">
-        <img class="logo" src="f1LogoTransparent.png" alt="logo">
-        <nav>
-            <ul class="nav_links">
-                <li><a href="/">Current Season</a></li>
-                <li><a href="/archive">Archive</a></li>
-                <li><a href="#">2019</a></li>
-                <li><a href="#">2018</a></li>
-            </ul>
-        </nav>
-    </div>
+    <nav id="myNavBar" class="navbar navbar-expand-lg navbar-light bg-light">
+        <img class="logo" src="f1LogoTransparent.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div id="myNavLinks" class="navbar-nav">
+            <a class="nav-item nav-link active" href="/">Current Season</a>
+            <a class="nav-item nav-link" href="/archive"">Season 3</a>
+          </div>
+        </div>
+    </nav>

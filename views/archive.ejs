@@ -1,33 +1,21 @@
 <%- include("./partials/header") %>
 <div class="archiveContainer">
+    
     <% archive["2020"].map(event => { %>
-        <div class="card">
-            <div class="card-image" style="background:url('<%- event["Image"] %>');"></div>
-            <div class="card-text">
-                <span class="date"><%= event["Date"] %></span>
-                <h2><%= event["Grand Prix"] %></h2>
-                <a class="btn" href="/archive/<%=event['race_id']%>/show">Full Standings</a>
+        <div class="card" style="width: 18rem;">
+            <img src=<%= event["Image"]%> class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><%= event["Grand Prix"] %></h5>
+              <h6><%= event["Date"] %></h6>
+              <ul class="cardTopThree">
+                  <li class="cardTopThreeWinner"><i class="fas fa-trophy"></i><%= event["Winner"] %></li>
+                  <li class="cardTopThree2nd"><i class="fas fa-trophy"></i><%= event["2ndPlace"] %></li>
+                  <li class="cardTopThree3rd"><i class="fas fa-trophy"></i><%= event["3rdPlace"] %></li>
+                  <li class="cardTopThreeFast"><i class="fas fa-fighter-jet"></i><%= event["FastestLap"] %></li>
+              </ul>
+              <a href="/archive/<%=event['race_id']%>/show" class="myButton">Full Standings</a>
             </div>
-            <div class="card-stats">
-                <div class="stat left-top">
-                    <div class="value"><%= event["Winner"] %></div>
-                    <div class="type">1ST</div>
-                </div>
-                <div class="stat right-top">
-                    <div class="value"><%= event["2ndPlace"] %></div>
-                    <div class="type">2ND</div>
-                </div>                
-                <div class="stat left-bot">
-                    <div class="value"><%= event["3rdPlace"] %></div>
-                    <div class="type">3RD</div>
-                </div>
-                <div class="stat right-bot">
-                    <div class="value"><%= event["FastestLap"] %></div>
-                    <div class="type">FASTEST</div>
-                </div>
-            </div>
-        </div>
-
+          </div>
     <% }) %>
     
 </div>

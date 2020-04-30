@@ -1,5 +1,4 @@
 body, html {
-    height: 100%;
     margin: 0;
     padding: 0;
     background: #f7f4f1;
@@ -13,7 +12,7 @@ body, html {
     background-size: cover;
 }
 
-.container{
+.myContainer{
     width: 80%;
     background: #1e1e1e;
     opacity: .9;
@@ -30,74 +29,73 @@ body, html {
     text-transform: uppercase;
 }
 
-.container h1 {
+.myContainer h1 {
     font-size: 72px;
     letter-spacing: 0.2em;
     margin: 0;
     margin-bottom: 30px;
 }
 
-.container h1 span {
+.myContainer h1 span {
     border: 10px solid white;
     border-radius: 10px;
     padding: 6px 14px;
     display: inline-block;
 }
 
-.btn {
-    color: white;
-    padding: 15px 24px;
-    font-size: 20px;
-    text-decoration: none;
-    background: #e10600;
-    border: 3px solid #e10600;
-    border-radius: 5px;
-    transition-duration: .4s;
+.myButton {
+    color: white !important;
+    padding: 15px 24px !important; 
+    font-size: 20px !important;
+    text-decoration: none !important;
+    background: #e10600 !important;
+    border: 3px solid #e10600 !important; 
+    border-radius: 5px !important;
+    transition-duration: .4s !important;
 }
 
-.btn:hover {
-    color: black;
-    background: white;
+.myButton:hover {
+    color: black !important;
+    background: white !important; 
 }
 
 .logo{
-    cursor: pointer;
-    margin: 0;
-    padding: 10px;
-    border-radius: 5px;
-    background: white;
-    opacity: 1;
-    height: 48px;
-    width: 64px;
+    cursor: pointer !important;
+    margin: 0 !important;
+    padding: 10px !important;
+    border-radius: 5px !important;
+    background: white !important;
+    opacity: 1 !important;
+    height: 48px !important;
+    width: 64px !important;
 }
-.navBar li, a, button {
-    font-weight: 500;
-    font-size: 24px;
-    color: white;
-    text-decoration: none;
+#myNavBar li, a, button {
+    font-weight: 500 !important;
+    font-size: 24px !important;
+    color: white !important;
+    text-decoration: none !important;
 }
-.navBar {
+#myNavBar {
     display: flex;
     align-items: center;
-    padding: 20px;
-    background: #e10600;
+    padding: 20px !important;
+    background: #e10600 !important;
 }
 
 .nav_links {
     list-style: none;
 }
 
-.nav_links li {
-    display: inline-block;
+#myNavLinks a {
     padding: 0px 25px;
 }
 
-.nav_links li a{
-    transition-duration: .4s;
+#myNavLinks a{
+    transition-duration: .4s !important;
 }
 
-.nav_links li a:hover{
-    color: black;
+#myNavLinks a:hover{
+    color: black !important;
 }
 
 .mainContent {
@@ -148,92 +146,39 @@ tbody tr:nth-child(odd){
     margin-left: 5%;
     margin-right: 5%;
     width: 90%;
-    display: grid;
-    grid-template-columns: 400px 400px 400px;
-    column-gap: 40px;
-    row-gap: 40px;
 }
 .card {
-    width: 400px;
-    display: grid;
-    grid-template-columns: 400px;
-    grid-template-rows: 210px 210px 80px 80px;
-    grid-template-areas: "image" "text" "stats" "stats";
-    border-radius: 20px;
-    background: white;
-    border: 5px solid #e10600;
+    display: inline-block !important;
 }
 
-.card-image {
-    grid-area: image;
-    background-position: bottom;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    object-fit: cover;
+.card .myButton {
+    padding: 8px 17px !important;
 }
 
-.card-text {
-    grid-area: text;
-    margin: 25px;
+.card .cardTopThree li {
+    list-style-type: none;
 }
-
-.card-text .date {
-    color: rgb(255, 7, 110);
+.card .cardTopThree i {
     font-size: 16px;
+    padding: 3px;
+    margin-right: 2px;
 }
 
-.card-text p {
-    color: grey;
-    font-size: 15px;
-    font-weight: 300;
+.card .cardTopThreeWinner i {
+    color: gold;
+}
+.card .cardTopThree2nd i {
+    color: silver;
+}
+.card .cardTopThree3rd i {
+    color: #cd7f32;
+}
+.card .cardTopThreeFast i {
+    color: #e10600;
 }
 
-.card-text h2 {
-    margin-top: 0px;
-    font-size: 28px;
-}
-
-.card-stats {
-    grid-area: stats;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    background: #15151e;
-}
-
-.card-stats .stat {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 10px;
-    color: white;
-}
-
-.card-stats .type {
-    font-size: 13px;
-    font-weight: 300;
-    text-transform: uppercase;
-}
-
-.card-stats .value {
-    font-size: 16px;
-    font-weight: 400;
-}
-
-.card-stats .left-top {
-    border-right: 2px solid #e10600;
-    border-bottom: 2px solid #e10600;
-}
-
-.card-stats .left-bot {
-    border-right: 2px solid #e10600;   
-}
-
-.card-stats .right-top {
-    border-bottom: 2px solid #e10600;   
+.card h6 {
+    color: #e10600 !important;
 }
 
 .monument {
@@ -294,10 +239,10 @@ footer h1 {
     .headerImage {
         height: 300px;
     }
-    .container h1 {
+    .myContainer h1 {
       font-size: 32px;
     }
-    .container h1 span {
+    .myContainer h1 span {
         border: 5px solid white;
     }
     .btn {
