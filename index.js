@@ -17,6 +17,9 @@ const archive = require("./json/raceHistory.json");
 let foundRace = {};
 
 app.get("/", function(req, res){
+    // driverStat.sort(function(a b){
+    //     return b.points - a.points;
+    // })
     res.render("index", {driverStat : driverStat});
 });
 

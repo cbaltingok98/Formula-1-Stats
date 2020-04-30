@@ -143,12 +143,15 @@ tbody tr:nth-child(odd){
 .archiveContainer{
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-left: 5%;
-    margin-right: 5%;
-    width: 90%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
 }
 .card {
-    display: inline-block !important;
+    display: inline-block !important;    
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-left: 10px;
 }
 
 .card .myButton {
@@ -254,6 +257,11 @@ footer h1 {
     }
     .driversChamp h1 {
         font-size: 36px;
+    }
+    .card {
+        display: block !important;
+        margin: 0 auto;
+        margin-bottom: 10px;
     }
     table {
         font-size: 13px;
