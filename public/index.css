@@ -289,3 +289,35 @@ footer h1 {
     margin: 0;
     padding: 30px;
 }
+
+@media screen and (max-width: 500px) {
+    .headerImage {
+        height: 300px;
+    }
+    .container h1 {
+      font-size: 32px;
+    }
+    .container h1 span {
+        border: 5px solid white;
+    }
+    .btn {
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+    .navBar .nav_links .hide {
+        display: none;
+    }
+    .driversChamp h1 {
+        font-size: 36px;
+    }
+    table {
+        font-size: 13px;
+    }
+    footer {
+        height: 150px;
+    }
+    footer h1 {
+        font-size: 32px;
+        padding: 15px;
+    }
+  }
