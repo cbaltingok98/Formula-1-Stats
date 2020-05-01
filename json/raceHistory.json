@@ -1,7 +1,8 @@
 {
-    "2020": [
+    "SEASON3": [
         {
             "race_id": 1,
+            "season": 3,
             "Grand Prix": "AUSTRALIA",
             "Date": "23/02/2020",
             "Image": "melbourne2020.jpg",
@@ -23,6 +24,7 @@
         },
         {
             "race_id": 2,
+            "season": 3,
             "Grand Prix": "BAHRAIN",
             "Date": "27/02/2020",
             "Image": "bahrain2020.jpg",
@@ -44,6 +46,7 @@
         },
         {
             "race_id": 3,
+            "season": 3,
             "Grand Prix": "CHINA",
             "Date": "01/03/2020",
             "Image": "shanghai2020.jpg",
@@ -65,6 +68,7 @@
         },
         {
             "race_id": 4,
+            "season": 3,
             "Grand Prix": "BAKU",
             "Date": "05/03/2020",
             "Image": "baku2020.jpg",
@@ -86,6 +90,7 @@
         },
         {
             "race_id": 5,
+            "season": 3,
             "Grand Prix": "SPAIN",
             "Date": "08/03/2020",
             "Image": "barcelona2020.jpg",
@@ -107,6 +112,7 @@
         },
         {
             "race_id": 6,
+            "season": 3,
             "Grand Prix": "MONACO",
             "Date": "12/03/2020",
             "Image": "monteCarlo2020.jpg",
@@ -129,6 +135,7 @@
         },
         {
             "race_id": 7,
+            "season": 3,
             "Grand Prix": "CANADA",
             "Date": "15/03/2020",
             "Image": "montreal2020.jpg",
@@ -151,6 +158,7 @@
         },
         {
             "race_id": 8,
+            "season": 3,
             "Grand Prix": "FRANCE",
             "Date": "19/03/2020",
             "Image": "frenchGP2020.jpg",
@@ -175,6 +183,7 @@
         },
         {
             "race_id": 9,
+            "season": 3,
             "Grand Prix": "AUSTRIA",
             "Date": "22/03/2020",
             "Image": "austrian2020.webp",
@@ -199,6 +208,7 @@
         },
         {
             "race_id": 10,
+            "season": 3,
             "Grand Prix": "BRITAIN",
             "Date": "26/03/2020",
             "Image": "silverstone2020.jpg",
@@ -221,6 +231,7 @@
         },
         {
             "race_id": 11,
+            "season": 3,
             "Grand Prix": "GERMANY",
             "Date": "29/03/2020",
             "Image": "hockenheim2020.jpg",
@@ -243,6 +254,7 @@
         },
         {
             "race_id": 12,
+            "season": 3,
             "Grand Prix": "HUNGARY",
             "Date": "02/04/2020",
             "Image": "hungarian2020.jpg",
@@ -265,6 +277,7 @@
         },
         {
             "race_id": 13,
+            "season": 3,
             "Grand Prix": "BELGIUM",
             "Date": "05/04/2020",
             "Image": "belgian2020.jpg",
@@ -287,6 +300,7 @@
         },
         {
             "race_id": 14,
+            "season": 3,
             "Grand Prix": "ITALY",
             "Date": "09/04/2020",
             "Image": "monza2020.jpg",
@@ -310,6 +324,7 @@
         },
         {
             "race_id": 15,
+            "season": 3,
             "Grand Prix": "SINGAPORE",
             "Date": "12/04/2020",
             "Image": "singapore2020.jpg",
@@ -332,6 +347,7 @@
         },
         {
             "race_id": 16,
+            "season": 3,
             "Grand Prix": "RUSSIA",
             "Date": "16/04/2020",
             "Image": "russian2020.jpg",
@@ -352,6 +368,7 @@
         },
         {
             "race_id": 17,
+            "season": 3,
             "Grand Prix": "JAPAN",
             "Date": "19/04/2020",
             "Image": "suzuka2020.jpg",
@@ -371,6 +388,7 @@
         },
         {
             "race_id": 18,
+            "season": 3,
             "Grand Prix": "MEXICO",
             "Date": "23/04/2020",
             "Image": "mexicoCity2020.jpg",
@@ -391,6 +409,7 @@
         },
         {
             "race_id": 19,
+            "season": 3,
             "Grand Prix": "USA",
             "Date": "26/04/2020",
             "Image": "usa2020.jpg",
@@ -410,6 +429,7 @@
         },
         {
             "race_id": 20,
+            "season": 3,
             "Grand Prix": "BRAZIL",
             "Date": "28/04/2020",
             "Image": "brazilian2020.jpg",
@@ -429,6 +449,7 @@
         },
         {
             "race_id": 21,
+            "season": 3,
             "Grand Prix": "ABU DHABI",
             "Date": "30/04/2020",
             "Image": "yasmarina2020.jpg",

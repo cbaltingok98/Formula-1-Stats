@@ -26,14 +26,18 @@ app.get("/", function(req, res){
     res.render("index", {driverLeaderBoard : driverLeaderBoard, raceCalendar : raceCalendar});
 });
 
-app.get("/archive", function(req, res) {
+app.get("/season3", function(req, res) {
     // console.log(archive["2020"][0]["Standings"][5]);
-    res.render("archive", {archive : archive});
+    res.render("season3", {archive : archive});
 });
+
+app.get("/season4", function(req, res){
+    res.render("season4");
+})
 
 app.get("/archive/:id/show", function(req, res){
     let raceID = req.params.id;
-    archive["2020"].map(race => {
+    archive["SEASON3"].map(race => {
         if(race["race_id"] == raceID){
             foundRace = race;
         }
