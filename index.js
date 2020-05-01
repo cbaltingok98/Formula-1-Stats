@@ -12,15 +12,18 @@ app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded());
 app.use(bodyParser.json());
 
-const driverStat = require("./json/currentLeaderboard.json");
+const driverLeaderBoard = require("./json/currentLeaderboard.json");
 const archive = require("./json/raceHistory.json");
+const construction = require("./json/construction.json");
+const driverProfile = require("./json/drivers.json");
+const raceCalendar = require("./json/raceCalendar.json");
 let foundRace = {};
 
 app.get("/", function(req, res){
-    // driverStat.sort(function(a b){
-    //     return b.points - a.points;
-    // })
-    res.render("index", {driverStat : driverStat});
+    driverLeaderBoard.sort(function(a, b){
+        return b.points - a.points;
+    })
+    res.render("index", {driverLeaderBoard : driverLeaderBoard, raceCalendar : raceCalendar});
 });
 
 app.get("/archive", function(req, res) {

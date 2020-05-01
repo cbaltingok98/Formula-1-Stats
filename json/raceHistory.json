@@ -3,7 +3,7 @@
         {
             "race_id": 1,
             "Grand Prix": "AUSTRALIA",
-            "Date": "N/A",
+            "Date": "23/02/2020",
             "Image": "melbourne2020.jpg",
             "Winner": "Fehmi Ulutas",
             "2ndPlace": "Berkay Kahya",
@@ -24,7 +24,7 @@
         {
             "race_id": 2,
             "Grand Prix": "BAHRAIN",
-            "Date": "N/A",
+            "Date": "27/02/2020",
             "Image": "bahrain2020.jpg",
             "Winner": "Salih Duzguner",
             "2ndPlace": "Gungor Celep",
@@ -45,7 +45,7 @@
         {
             "race_id": 3,
             "Grand Prix": "CHINA",
-            "Date": "N/A",
+            "Date": "01/03/2020",
             "Image": "shanghai2020.jpg",
             "Winner": "Atahan Ozen",
             "2ndPlace": "Fehmi Ulutas",
@@ -66,7 +66,7 @@
         {
             "race_id": 4,
             "Grand Prix": "BAKU",
-            "Date": "N/A",
+            "Date": "05/03/2020",
             "Image": "baku2020.jpg",
             "Winner": "Salih Duzguner",
             "2ndPlace": "Philipp Haase",
@@ -87,7 +87,7 @@
         {
             "race_id": 5,
             "Grand Prix": "SPAIN",
-            "Date": "N/A",
+            "Date": "08/03/2020",
             "Image": "barcelona2020.jpg",
             "Winner": "Gokhan Maden",
             "2ndPlace": "Atahan Ozen",
@@ -108,7 +108,7 @@
         {
             "race_id": 6,
             "Grand Prix": "MONACO",
-            "Date": "N/A",
+            "Date": "12/03/2020",
             "Image": "monteCarlo2020.jpg",
             "Winner": "Fehmi Ulutas",
             "2ndPlace": "Philipp Haase",
@@ -130,7 +130,7 @@
         {
             "race_id": 7,
             "Grand Prix": "CANADA",
-            "Date": "N/A",
+            "Date": "15/03/2020",
             "Image": "montreal2020.jpg",
             "Winner": "Atahan Ozen",
             "2ndPlace": "Fehmi Ulutas",
@@ -152,7 +152,7 @@
         {
             "race_id": 8,
             "Grand Prix": "FRANCE",
-            "Date": "N/A",
+            "Date": "19/03/2020",
             "Image": "frenchGP2020.jpg",
             "Winner": "Berkay Kahya",
             "2ndPlace": "Jamie O'Connor",
@@ -176,7 +176,7 @@
         {
             "race_id": 9,
             "Grand Prix": "AUSTRIA",
-            "Date": "N/A",
+            "Date": "22/03/2020",
             "Image": "austrian2020.webp",
             "Winner": "Atahan Ozen",
             "2ndPlace": "Berkay Kahya",
@@ -200,7 +200,7 @@
         {
             "race_id": 10,
             "Grand Prix": "BRITAIN",
-            "Date": "N/A",
+            "Date": "26/03/2020",
             "Image": "silverstone2020.jpg",
             "Winner": "Atahan Ozen",
             "2ndPlace": "Fehmi Ulutas",
@@ -222,7 +222,7 @@
         {
             "race_id": 11,
             "Grand Prix": "GERMANY",
-            "Date": "N/A",
+            "Date": "29/03/2020",
             "Image": "hockenheim2020.jpg",
             "Winner": "Gokhan Maden",
             "2ndPlace": "Atahan Ozen",
@@ -244,7 +244,7 @@
         {
             "race_id": 12,
             "Grand Prix": "HUNGARY",
-            "Date": "N/A",
+            "Date": "02/04/2020",
             "Image": "hungarian2020.jpg",
             "Winner": "Fehmi Ulutas",
             "2ndPlace": "Atahan Ozen",
@@ -266,7 +266,7 @@
         {
             "race_id": 13,
             "Grand Prix": "BELGIUM",
-            "Date": "N/A",
+            "Date": "05/04/2020",
             "Image": "belgian2020.jpg",
             "Winner": "Fehmi Ulutas",
             "2ndPlace": "Gungor Celep",
@@ -288,7 +288,7 @@
         {
             "race_id": 14,
             "Grand Prix": "ITALY",
-            "Date": "N/A",
+            "Date": "09/04/2020",
             "Image": "monza2020.jpg",
             "Winner": "Gungor Celep",
             "2ndPlace": "Atahan Ozen",
@@ -311,7 +311,7 @@
         {
             "race_id": 15,
             "Grand Prix": "SINGAPORE",
-            "Date": "N/A",
+            "Date": "12/04/2020",
             "Image": "singapore2020.jpg",
             "Winner": "Atahan Ozen",
             "2ndPlace": "Berkay Kahya",
@@ -333,43 +333,40 @@
         {
             "race_id": 16,
             "Grand Prix": "RUSSIA",
-            "Date": "N/A",
+            "Date": "16/04/2020",
             "Image": "russian2020.jpg",
-            "Winner": "Salih Duzguner",
-            "2ndPlace": "Philip Haase",
-            "3rdPlace": "Fehmi Ulutas",
-            "FastestLap": "Atahan Ozen",
+            "Winner": "GM ManyEx",
+            "2ndPlace": "Yigitalp2631",
+            "3rdPlace": "HoneyBadger6725",
+            "FastestLap": "GM ManyEx",
             "Standings": [
-                { "position": 1, "driver": "Salih Duzguner", "team": "N/A", "points": 25 },
-                { "position": 2,  "driver": "Philip Haase", "team": "N/A", "points": 18 },
-                { "position": 3,  "driver": "Fehmi Ulutas", "team": "N/A", "points": 15 },
-                { "position": 4,  "driver": "Gungor Celep", "team": "N/A", "points": 12 },
-                { "position": 7,  "driver": "Atahan Ozen", "team": "N/A", "points": 7 },
-                { "position": 12,  "driver": "Gokhan Maden", "team": "N/A", "points": 0 },
-                { "position": "DNF",  "driver": "Doruk Cetin", "team": "N/A", "points": 0 },
-                { "position": "DNF",  "driver": "Yigit Yigitalp", "team": "N/A", "points": 0 },
-                { "position": "DNF",  "driver": "Berkay Kahya", "team": "N/A", "points": 0 }
+                { "position": 1, "driver": "GM ManyEx", "team": "FERRARI", "points": 26 },
+                { "position": 2,  "driver": "Yigitalp2631", "team": "MERCEDES", "points": 18 },
+                { "position": 3,  "driver": "HoneyBadger6725", "team": "REDBULL", "points": 15 },
+                { "position": 4,  "driver": "KillaRamo3", "team": "FERRARI", "points": 12 },
+                { "position": 5,  "driver": "StarfoxF1", "team": "RACING POINT", "points": 10 },
+                { "position": 6,  "driver": "SiLaHeNdaZ", "team": "MERCEDES", "points": 8 },
+                { "position": "DNF",  "driver": "FatedRacer14130", "team": "RACING POINT", "points": 0 },
+                { "position": "DNF",  "driver": "Saloo911D", "team": "RENAULT", "points": 0 }
             ]
         },
         {
             "race_id": 17,
-            "Grand Prix": "BAKU",
-            "Date": "N/A",
-            "Image": "baku2020.jpg",
-            "Winner": "Salih Duzguner",
-            "2ndPlace": "Philip Haase",
-            "3rdPlace": "Fehmi Ulutas",
-            "FastestLap": "Atahan Ozen",
+            "Grand Prix": "JAPAN",
+            "Date": "19/04/2020",
+            "Image": "suzuka2020.jpg",
+            "Winner": "FatedRacer14130",
+            "2ndPlace": "StarfoxF1",
+            "3rdPlace": "Yigitalp2631",
+            "FastestLap": "FatedRacer14130",
             "Standings": [
-                { "position": 1, "driver": "Salih Duzguner", "team": "N/A", "points": 25 },
-                { "position": 2,  "driver": "Philip Haase", "team": "N/A", "points": 18 },
-                { "position": 3,  "driver": "Fehmi Ulutas", "team": "N/A", "points": 15 },
-                { "position": 4,  "driver": "Gungor Celep", "team": "N/A", "points": 12 },
-                { "position": 7,  "driver": "Atahan Ozen", "team": "N/A", "points": 7 },
-                { "position": 12,  "driver": "Gokhan Maden", "team": "N/A", "points": 0 },
-                { "position": "DNF",  "driver": "Doruk Cetin", "team": "N/A", "points": 0 },
-                { "position": "DNF",  "driver": "Yigit Yigitalp", "team": "N/A", "points": 0 },
-                { "position": "DNF",  "driver": "Berkay Kahya", "team": "N/A", "points": 0 }
+                { "position": 1, "driver": "FatedRacer14130", "team": "FERRARI", "points": 26 },
+                { "position": 2,  "driver": "StarfoxF1", "team": "RACING POINT", "points": 18 },
+                { "position": 3,  "driver": "Yigitalp2631", "team": "MERCEDES", "points": 15 },
+                { "position": 4,  "driver": "KillaRamo3", "team": "FERRARI", "points": 12 },
+                { "position": 5,  "driver": "HoneyBadger6725", "team": "REDBULL", "points": 10 },
+                { "position": 6,  "driver": "SiLaHeNdaZ", "team": "MERCEDES", "points": 8 },
+                { "position": "DNF",  "driver": "GM ManyEx", "team": "FERRARI", "points": 0 }
             ]
         },
         {
@@ -409,6 +406,25 @@
                 { "position": 5,  "driver": "HoneyBadger6725", "team": "REDBULL", "points": 10 },
                 { "position": 6,  "driver": "OpsAngel98", "team": "REDBULL", "points": 9 },
                 { "position": 7,  "driver": "SiLaHeNdaZ", "team": "MERCEDES", "points": 6 }
+            ]
+        },
+        {
+            "race_id": 20,
+            "Grand Prix": "ABU DHABI",
+            "Date": "30/04/2020",
+            "Image": "yasmarina2020.jpg",
+            "Winner": "GM ManyEx",
+            "2ndPlace": "FatedRacer14130",
+            "3rdPlace": "StarfoxF1",
+            "FastestLap": "GM ManyEx",
+            "Standings": [
+                { "position": 1, "driver": "GM ManyEx", "team": "RACING POINT", "points": 26 },
+                { "position": 2,  "driver": "FatedRacer14130", "team": "FERRARI", "points": 18 },
+                { "position": 3,  "driver": "StarfoxF1", "team": "RACING POINT", "points": 15 },
+                { "position": 4,  "driver": "Yigitalp2631", "team": "MERCEDES", "points": 12 },
+                { "position": 5,  "driver": "OpsAngel98", "team": "REDBULL", "points": 10 },
+                { "position": 6,  "driver": "SiLaHeNdaZ", "team": "REDBULL", "points": 8 },
+                { "position": 7,  "driver": "HoneyBadger6725", "team": "MERCEDES", "points": 6 }
             ]
         }
         

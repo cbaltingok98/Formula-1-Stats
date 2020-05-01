@@ -1,0 +1,64 @@
+{
+    "Teams": [
+        {
+            "name": "MERCEDES",
+            "image": "test",
+            "drivers": ["Yigitalp2631", "SiLaHeNdaZ"],
+            "teamPoints": 0
+        },
+        {
+            "name": "FERRARI",
+            "image": "test",
+            "drivers": ["GM ManyEx", "KillaRamo3"],
+            "teamPoints": 0
+        },
+        {
+            "name": "REDBULL",
+            "image": "test",
+            "drivers": ["OpsAngel98", "HoneyBadger6725"],
+            "teamPoints": 0
+        },
+        {   
+            "name": "RENAULT",
+            "image": "test",
+            "drivers": ["Saloo911D", "STPPH57"],
+            "teamPoints": 0
+        },
+        {
+            "name": "WILLIAMS",
+            "image": "test",
+            "drivers": [],
+            "teamPoints": 0
+        },
+        {
+            "name": "RACING POINT",
+            "image": "test",
+            "drivers": ["StarfoxF1", "FatedRacer14130"],
+            "teamPoints": 0
+        },
+        {
+            "name": "MCLAREN",
+            "image": "test",
+            "drivers": [],
+            "teamPoints": 0
+        },
+        {
+            "name": "TORO ROSSO",
+            "image": "test",
+            "drivers": [],
+            "teamPoints": 0
+        },
+        {
+            "name": "ALFA ROMEO",
+            "image": "test",
+            "drivers": [],
+            "teamPoints": 0
+        },
+        {
+            "name": "HAAS",
+            "image": "test",
+            "drivers": [],
+            "teamPoints": 0
+        }
+    ]
+}
