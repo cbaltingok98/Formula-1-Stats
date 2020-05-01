@@ -410,6 +410,25 @@
         },
         {
             "race_id": 20,
+            "Grand Prix": "BRAZIL",
+            "Date": "28/04/2020",
+            "Image": "brazilian2020.jpg",
+            "Winner": "StarfoxF1",
+            "2ndPlace": "FatedRacer14130",
+            "3rdPlace": "KillaRamo3",
+            "FastestLap": "StarfoxF1",
+            "Standings": [
+                { "position": 1, "driver": "StarfoxF1", "team": "RACING POINT", "points": 26 },
+                { "position": 2,  "driver": "FatedRacer14130", "team": "FERRARI", "points": 18 },
+                { "position": 3,  "driver": "KillaRamo3", "team": "RACING POINT", "points": 15 },
+                { "position": 4,  "driver": "OpsAngel98", "team": "MERCEDES", "points": 12 },
+                { "position": 5,  "driver": "Yigitalp2631", "team": "REDBULL", "points": 10 },
+                { "position": 6,  "driver": "HoneyBadger6725", "team": "REDBULL", "points": 8 },
+                { "position": 7,  "driver": "SiLaHeNdaZ", "team": "MERCEDES", "points": 6 }
+            ]
+        },
+        {
+            "race_id": 21,
             "Grand Prix": "ABU DHABI",
             "Date": "30/04/2020",
             "Image": "yasmarina2020.jpg",
