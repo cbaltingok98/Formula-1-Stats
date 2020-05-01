@@ -2,7 +2,7 @@ body, html {
     margin: 0;
     padding: 0;
     background: #f7f4f1;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Titillium Web', sans-serif !important;
 }
 .headerImage {  
     position: relative;
@@ -152,10 +152,16 @@ tbody tr:nth-child(odd){
     margin: 0 auto;
     margin-bottom: 10px;
     margin-left: 24px;
+    border: 2px solid #1e1e1e !important;
+    transition-duration: 0.4s;
+}
+
+.card:hover {
+    box-shadow: 4px 5px rgb(156, 156, 156);
 }
 
 .card .myButton {
-    padding: 8px 17px !important;
+    padding: 3px 10px !important;
 }
 
 .card .cardTopThree li {
