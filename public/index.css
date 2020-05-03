@@ -144,6 +144,7 @@ body, html {
     padding-top: 50px;
     padding-bottom: 40px;
     font-size: 56px;
+    text-align: center;
 }
 
 .driversChamp table {
@@ -151,6 +152,11 @@ body, html {
     letter-spacing: 0.1em;
     border-spacing: 0;
     margin-bottom: 50px;
+    text-align: left;
+}
+
+table .points {
+    text-align: center;
 }
 
 tbody {
@@ -161,9 +167,10 @@ tbody tr:nth-child(odd){
     background: #f4f4f4;
 }
 
-.driverChampTable td {
+table td {
     padding-top: 10px;
     padding-bottom: 10px;
+    max-width: 40px;
 }
 /* RACE CONTAINER */
 .archiveContainer{

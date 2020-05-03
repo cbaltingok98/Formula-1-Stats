@@ -41,7 +41,7 @@
                         <th>POS</th>
                         <th>DRIVER</th>
                         <th>CAR</th>
-                        <th>PTS</th>
+                        <th class="points">PTS</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -50,7 +50,7 @@
                             <td><%= index + 1 %></td>
                             <td><%= driver.driver %></td>
                             <td><%= driver.team %></td>
-                            <td><%= driver.points %></td>
+                            <td class="points"><%= driver.points %></td>
                         </tr>
                     <% }) %>
                 </tbody>
