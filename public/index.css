@@ -302,7 +302,8 @@ tbody tr:nth-child(odd){
         #cb9b51 78%,
         #462523 100%
     );
-    background-clip:text;
+    background-clip: text;
+    -webkit-background-clip: text;
 }
 
 .leaderboardHist .container {
@@ -412,7 +413,8 @@ footer h1 {
         #cb9b51 78%,
         #462523 100%
     );
-    background-clip:text;
+    background-clip: text;
+    -webkit-background-clip: text;
     font-size: 58px;
     margin: 20px 0 20px 0;
     padding: 30px;
