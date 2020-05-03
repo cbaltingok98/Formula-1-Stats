@@ -440,10 +440,25 @@ footer h1 {
     .driversChamp h1 {
         font-size: 36px;
     }
+    .leaderboardHist .container h1 {
+        font-size: 36px;
+    }
+    .leaderboardHist .container .driversChamp h1 {
+        font-size: 32px;
+    }
     .card {
         display: block !important;
         margin: 0 auto;
         margin-bottom: 10px;
+    }
+    .teamList .container h1 {
+        font-size: 36px;
+    }
+    .teamList .team-card .card-header {
+        font-size: 26px;
+    }
+    .teamList .team-card .card-header img {
+        height: 45px !important;
     }
     table {
         font-size: 13px;
