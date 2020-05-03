@@ -451,6 +451,9 @@ footer h1 {
         margin: 0 auto;
         margin-bottom: 10px;
     }
+    .worldChamp .container i {
+        display: none;
+    }
     .teamList .container h1 {
         font-size: 36px;
     }
