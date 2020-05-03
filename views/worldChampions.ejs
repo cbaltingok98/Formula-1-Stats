@@ -1,0 +1,20 @@
+<%- include("./partials/header") %>
+<div id="worldCH" class="worldChamp">
+    <div class="container">
+        <h1><i class="fas fa-trophy"></i> SEASON CHAMPIONS <i class="fas fa-trophy"></i></h1>
+        <div class="row">
+        <% worldChamps.map(driver => { %>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="drivers/<%= driver.picture %>" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h2 class="card-title champ-name"><%= driver.name %></h2>
+                    <h5 class="champ-season">SEASON <%= driver.season %></h5>
+                    </div>
+                </div>
+            </div>
+        <% }) %>
+    </div>
+    </div>
+</div>
+<%- include("./partials/footer") %>

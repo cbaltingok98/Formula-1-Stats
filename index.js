@@ -12,18 +12,19 @@ app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded());
 app.use(bodyParser.json());
 
-const driverLeaderBoard = require("./json/currentLeaderboard.json");
+const leaderboardHistory = require("./json/leaderboardHistory.json");
 const archive = require("./json/raceHistory.json");
-const construction = require("./json/construction.json");
+const constructor = require("./json/constructor.json");
 const driverProfile = require("./json/drivers.json");
 const raceCalendar = require("./json/raceCalendar.json");
+const worldChamps = require("./json/worldChampions.json");
 let foundRace = {};
 
 app.get("/", function(req, res){
-    driverLeaderBoard.sort(function(a, b){
+    driverProfile["Driver"].sort(function(a, b){
         return b.points - a.points;
     })
-    res.render("index", {driverLeaderBoard : driverLeaderBoard, raceCalendar : raceCalendar});
+    res.render("index", {driverProfile : driverProfile["Driver"], raceCalendar : raceCalendar});
 });
 
 app.get("/season3", function(req, res) {
@@ -43,6 +44,19 @@ app.get("/archive/:id/show", function(req, res){
         }
     })
     res.redirect("/showRaceStat");
+});
+
+app.get("/worldChamp", function(req, res){
+    res.render("worldChampions", {worldChamps : worldChamps});
+});
+
+app.get("/teamlist", function(req, res){
+    let result;
+    res.render("teamlist", {constructor : constructor["Teams"], driverProfile : driverProfile["Driver"], result : result});
+});
+
+app.get("/leaderboardhistory", function(req, res){
+    res.render("leaderboardhistory", {leaderboardHistory : leaderboardHistory});
 });
 
 app.get("/showRaceStat", function(req, res){

@@ -114,7 +114,9 @@ body, html {
 .indexPageTopThree .card {
     margin: 0px;
     margin-top: 10px;
+    background-color: #1e1e1e;
 }
+
 
 .indexPageTopThree .card h4 {
     color: #e10600;
@@ -171,6 +173,16 @@ tbody tr:nth-child(odd){
     margin-right: 5%;
     width: 90%;
 }
+.archiveContainer h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 56px;
+}
+
+.archiveContainer .card h5 {
+    color: #15151e;
+}
+
 .card {
     display: inline-block !important;    
     margin: 0 auto;
@@ -226,6 +238,7 @@ tbody tr:nth-child(odd){
     border-radius: 5px;
     padding: 10px;
     margin: 10px;
+    color: #212529;
 }
 
 .monument h2 i {
@@ -250,6 +263,132 @@ tbody tr:nth-child(odd){
     color: #e10600;
 }
 
+.worldChamp {
+    background: #181820;
+}
+
+.worldChamp h1 {
+    padding: 50px 0 50px 0;
+    font-size: 56px;
+}
+
+.worldChamp .row {
+    padding-bottom: 50px;
+}
+
+.worldChamp .container {
+    text-align: center;
+}
+
+.worldChamp .card {
+    display: inline-block;
+    background-color: #1e1e1e;
+    border: 3px solid #f1da75 !important;
+}
+
+.worldChamp .card:hover{
+    box-shadow: none;
+}
+
+.worldChamp h1, h2, h5 {
+    color: transparent;
+    background-image: linear-gradient(
+        to right,
+        #462523 0,
+        #cb9b51 22%,
+        #f6e27a 45%,
+        #f6f2c0 50%,
+        #f6e27a 55%,
+        #cb9b51 78%,
+        #462523 100%
+    );
+    background-clip:text;
+}
+
+.leaderboardHist .container {
+    text-align: center;
+}
+
+.leaderboardHist .container h1 {
+    margin-top: 0;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    font-size: 56px;
+}
+
+.leaderboardHist .container .driversChamp h1 {
+   font-size: 46px;
+   padding-top: 0;
+}
+
+.teamList .container {
+    text-align: center;
+}
+
+.teamList .container h1 {
+    margin: 40px 0 40px 0;
+    font-size: 56px;
+}
+
+.teamList .team-card .card-body h4 span{
+   position: absolute;
+   right: 15px;
+}
+
+.teamList .team-card:hover{
+    cursor: pointer;
+}
+
+.teamList .team-card .card-body{
+    text-align: left;
+    border-bottom: 3px solid #d8d8d8;
+    border-right: 3px solid #d8d8d8;
+    border-radius: 5px;
+}
+.teamList .team-card .card-header {
+    font-size: 32px;
+    text-align: left;
+    padding-left: 10px;
+    border-right: 3px solid #d8d8d8;
+    border-radius: 5px;
+}
+
+.teamList .team-card .card-header img {
+    position: absolute;
+    right: 10px;
+}
+
+.teamList .team-card .mercedes {
+    border-left: 5px solid #00d2be;
+}
+.teamList .team-card .ferrari {
+    border-left: 5px solid #dc0000;
+}
+.teamList .team-card .redbull {
+    border-left: 5px solid #0600ef;
+}
+.teamList .team-card .renault {
+    border-left: 5px solid #fff500;
+}
+.teamList .team-card .williams {
+    border-left: 5px solid #0082fa;
+}
+.teamList .team-card .racingpoint {
+    border-left: 5px solid #f596c8;
+}
+.teamList .team-card .mclaren {
+    border-left: 5px solid #ff8700;
+}
+.teamList .team-card .tororosso {
+    border-left: 5px solid #0600ef;
+}
+.teamList .team-card .alfaromeo {
+    border-left: 5px solid #960000;
+}
+.teamList .team-card .haas {
+    border-left: 5px solid #787878;
+}
+
 /* FOOTER */
 footer {
     border-top: 10px solid #e10600;
@@ -262,7 +401,18 @@ footer {
 
 
 footer h1 {
-    color: white;
+    color: transparent;
+    background-image: linear-gradient(
+        to right,
+        #462523 0,
+        #cb9b51 22%,
+        #f6e27a 45%,
+        #f6f2c0 50%,
+        #f6e27a 55%,
+        #cb9b51 78%,
+        #462523 100%
+    );
+    background-clip:text;
     font-size: 58px;
     margin: 20px 0 20px 0;
     padding: 30px;
