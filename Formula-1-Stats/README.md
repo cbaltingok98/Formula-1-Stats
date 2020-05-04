@@ -59,4 +59,4 @@
 
 ### Bugs
 
-* No known bugs.
+* No known bugs

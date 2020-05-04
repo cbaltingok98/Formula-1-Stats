@@ -1,0 +1,39 @@
+<%- include("./partials/header") %>
+<link rel="stylesheet" href="index.css">
+<div class="mainContent">
+    <div id="driversList" class="driversChamp">
+        <h1>Season <%=foundRace["season"]%> <%=foundRace["Grand Prix"]%> Results</h1>
+        <div class="monument">
+            <h2 class="circle-txt winner"><i class="fas fa-trophy"></i><%=foundRace["Winner"] %></h2v>
+            <h2 class="circle-txt second"><i class="fas fa-trophy"></i><%=foundRace["2ndPlace"] %></h2>
+            <h2 class="circle-txt third"><i class="fas fa-trophy"></i><%=foundRace["3rdPlace"] %></h2>
+            <h2 class="circle-txt fastest"><i class="fas fa-fighter-jet"></i><%=foundRace["FastestLap"] %></h2>
+        </div>
+        <table class="driverChampTable">
+            <thead>
+                <tr>
+                    <th>POS</th>
+                    <th>DRIVER</th>
+                    <th>CAR</th>
+                    <th class="points">PTS</th>
+                </tr>
+            </thead>
+            <tbody>
+                <% foundRace["Standings"].map(driver => { %>
+                    <tr>
+                        <td><%= driver.position %></td>
+                        <td><%= driver.driver %></td>
+                        <td><%= driver.team %></td>
+                        <td class="points"><%= driver.points %></td>
+                    </tr>
+                <% }) %>
+            </tbody>            
+        </table>
+    </div>
+    <div class="constructorsChamp">
+        <table class="constructorChampTable">
+
+        </table>
+    </div>
+</div>
+<%- include("./partials/footer") %>
