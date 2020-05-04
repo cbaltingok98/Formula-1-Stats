@@ -1,9 +1,9 @@
 {
     "Driver": [
         {"driver": "StarfoxF1", "team": "FERRARI", "points": 10},
-        {"driver": "FatedRacer14130", "team": "WILLIAMS", "points": 0},
-        {"driver": "GM ManyEx", "team": "ALFA ROMEO", "points": 0},
-        {"driver": "Saloo911D", "team": "MERCEDES", "points": 0},
+        {"driver": "FatedRacer14130", "team": "WILLIAMS", "points": 65},
+        {"driver": "GM ManyEx", "team": "ALFA ROMEO", "points": 45},
+        {"driver": "Saloo911D", "team": "MERCEDES", "points":88},
         {"driver": "KillaRamo3", "team": "FERRARI", "points": 0},
         {"driver": "Yigitalp2631", "team": "ALFA ROMEO", "points": 0},
         {"driver": "HoneyBadger6725", "team": "WILLIAMS", "points": 0},
