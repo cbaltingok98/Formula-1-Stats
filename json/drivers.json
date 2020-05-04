@@ -1,6 +1,6 @@
 {
     "Driver": [
-        {"driver": "StarfoxF1", "team": "FERRARI", "points": 0},
+        {"driver": "StarfoxF1", "team": "FERRARI", "points": 10},
         {"driver": "FatedRacer14130", "team": "WILLIAMS", "points": 0},
         {"driver": "GM ManyEx", "team": "ALFA ROMEO", "points": 0},
         {"driver": "Saloo911D", "team": "MERCEDES", "points": 0},
