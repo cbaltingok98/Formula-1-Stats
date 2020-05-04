@@ -31,4 +31,4 @@
 * Constructor Page - work in progress
 * Join Us button
 ### Bugs
-* Upcoming races are not centered for mobile devices.
+* Upcoming races are not centered for mobile devices. - FIXED
