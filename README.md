@@ -2,17 +2,24 @@
 
 ## V1
 
+* HTML/CSS/JS
+
 ### Not Available 
 * Join Us Button
-* 2019 Stats
-* 2018 Stats
+* Season 3 Stats
+* Season 4 Stats
 * Constructor Standings
 * Individual Race Stats
+* Championship Page
+* Team Page
+* Leaderboard History Page
 
 ### Available
-* 2020 Driver Standings
+* Season 3 Driver Standings
 
 ## v2
+
+* HTML/CSS/JS/EXPRESS/NODEJS/JSON
 
 ### Visit 
 * [Formula 1 Standings](https://formula-1-standings.herokuapp.com/)
