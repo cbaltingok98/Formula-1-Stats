@@ -3,101 +3,121 @@
         {
             "Grand Prix": "AUSTRALIA",
             "Date": "10/05/2020",
+            "Time": "21:00:00",
             "Image": "melbourne2020.jpg"
         },
         {
             "Grand Prix": "BAHRAIN",
             "Date": "12/05/2020",
+            "Time": "21:00:00",
             "Image": "bahrain2020.jpg"
         },
         {
             "Grand Prix": "CHINA",
             "Date": "17/05/2020",
+            "Time": "21:00:00",
             "Image": "shanghai2020.jpg"
         },
         {
             "Grand Prix": "BAKU",
             "Date": "05/03/2020",
+            "Time": "21:00:00",
             "Image": "baku2020.jpg"
         },
         {
             "Grand Prix": "SPAIN",
             "Date": "08/03/2020",
+            "Time": "21:00:00",
             "Image": "barcelona2020.jpg"
         },
         {
             "Grand Prix": "MONACO",
             "Date": "12/03/2020",
+            "Time": "21:00:00",
             "Image": "monteCarlo2020.jpg"
         },
         {
             "Grand Prix": "CANADA",
             "Date": "15/03/2020",
+            "Time": "21:00:00",
             "Image": "montreal2020.jpg"
         },
         {
             "Grand Prix": "FRANCE",
             "Date": "19/03/2020",
+            "Time": "21:00:00",
             "Image": "frenchGP2020.jpg"
         },
         {
             "Grand Prix": "AUSTRIA",
             "Date": "22/03/2020",
+            "Time": "21:00:00",
             "Image": "austrian2020.webp"
         },
         {
             "Grand Prix": "BRITAIN",
             "Date": "26/03/2020",
+            "Time": "21:00:00",
             "Image": "silverstone2020.jpg"
         },
         {
             "Grand Prix": "GERMANY",
             "Date": "29/03/2020",
+            "Time": "21:00:00",
             "Image": "hockenheim2020.jpg"
         },
         {
             "Grand Prix": "HUNGARY",
             "Date": "02/04/2020",
+            "Time": "21:00:00",
             "Image": "hungarian2020.jpg"
         },
         {
             "Grand Prix": "BELGIUM",
             "Date": "05/04/2020",
+            "Time": "21:00:00",
             "Image": "belgian2020.jpg"
         },
         {
             "Grand Prix": "ITALY",
             "Date": "09/04/2020",
+            "Time": "21:00:00",
             "Image": "monza2020.jpg"
         },
         {
             "Grand Prix": "SINGAPORE",
             "Date": "12/04/2020",
+            "Time": "21:00:00",
             "Image": "singapore2020.jpg"
         },
         {
             "Grand Prix": "RUSSIA",
             "Date": "16/04/2020",
+            "Time": "21:00:00",
             "Image": "russian2020.jpg"
         },
         {
             "Grand Prix": "JAPAN",
             "Date": "19/04/2020",
+            "Time": "21:00:00",
             "Image": "suzuka2020.jpg"
         },
         {
             "Grand Prix": "MEXICO",
             "Date": "23/04/2020",
+            "Time": "21:00:00",
             "Image": "mexicoCity2020.jpg"
         },
         {
             "Grand Prix": "USA",
             "Date": "26/04/2020",
+            "Time": "21:00:00",
             "Image": "usa2020.jpg"
         },
         {
             "Grand Prix": "ABU DHABI",
             "Date": "30/04/2020",
+            "Time": "21:00:00",
             "Image": "yasmarina2020.jpg"
         }
         
