@@ -7,13 +7,7 @@
             <div class="card-body">
             <h5 class="card-title"><%= event["Grand Prix"] %></h5>
             <h6><%= event["Date"] %></h6>
-            <ul class="cardTopThree">
-                <li class="cardTopThreeWinner"><i class="fas fa-trophy"></i><%= event["Winner"] %></li>
-                <li class="cardTopThree2nd"><i class="fas fa-trophy"></i><%= event["2ndPlace"] %></li>
-                <li class="cardTopThree3rd"><i class="fas fa-trophy"></i><%= event["3rdPlace"] %></li>
-                <li class="cardTopThreeFast"><i class="fas fa-fighter-jet"></i><%= event["FastestLap"] %></li>
-            </ul>
-            <a href="/archive/<%=event['race_id']%>/show" class="myButton">Full Results</a>
+            <a href="#" class="myButton">N/A</a>
             </div>
         </div>
     <% }) %>
