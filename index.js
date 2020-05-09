@@ -33,7 +33,7 @@ app.get("/season3", function(req, res) {
 });
 
 app.get("/season4", function(req, res){
-    res.render("season4");
+    res.render("season4", {archive : archive});
 })
 
 app.get("/archive/:id/show", function(req, res){

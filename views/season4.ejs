@@ -1,5 +1,16 @@
 <%- include("./partials/header") %>
-<div class="container">
-    <h1>Coming Soon</h1>
+<div class="archiveContainer">
+    <h1>SEASON 4</h1>
+    <% archive["SEASON4"].map(event => { %>
+        <div class="card" style="width: 18rem;">
+            <img src=<%= event["Image"]%> class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title"><%= event["Grand Prix"] %></h5>
+            <h6><%= event["Date"] %></h6>
+            <a href="#" class="myButton">N/A</a>
+            </div>
+        </div>
+    <% }) %>
+    
 </div>
 <%- include("./partials/footer") %>
