@@ -104,6 +104,9 @@ body, html {
 .mainContent .container .card {
     margin: 5px auto;
 }
+.mainContent .container .card img {
+    max-height: 397px;
+}
 
 .mainContent .container h1 {
     margin-top: 50px;
