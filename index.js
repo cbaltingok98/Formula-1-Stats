@@ -22,6 +22,7 @@ let foundRace = {};
 let season;
 
 app.get("/", function(req, res){
+    
     driverProfile["Driver"].sort(function(a, b){
         return b.points - a.points;
     })
