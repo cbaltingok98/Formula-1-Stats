@@ -11,18 +11,18 @@
             "3rdPlace": "KillaRamo3",
             "FastestLap": "StarfoxF1",
             "Standings": [
-                {"driver": "StarfoxF1", "team": "FERRARI", "points": 26},
-                {"driver": "FatedRacer14130", "team": "WILLIAMS", "points": 18},
-                {"driver": "GM ManyEx", "team": "ALFA ROMEO", "points": 10},
-                {"driver": "Saloo911D", "team": "MERCEDES", "points": 0},
-                {"driver": "KillaRamo3", "team": "FERRARI", "points": 15},
-                {"driver": "Yigitalp2631", "team": "ALFA ROMEO", "points": 0},
-                {"driver": "HoneyBadger6725", "team": "WILLIAMS", "points": 8},
-                {"driver": "STPPH57", "team": "TORO ROSSO", "points": 12},
-                {"driver": "SiLaHeNdaZ", "team": "TORO ROSSO", "points": 2},
-                {"driver": "OpsAngel98", "team": "MERCEDES", "points": 6},
-                {"driver": "Brecho Kanack34", "team": "RACING POINT", "points": 4},
-                {"driver": "erolegesoy87", "team": "RACING POINT", "points": 1}
+                {"position": 1,"driver": "StarfoxF1", "team": "FERRARI", "points": 26},
+                {"position": 1,"driver": "FatedRacer14130", "team": "WILLIAMS", "points": 18},
+                {"position": 1,"driver": "GM ManyEx", "team": "ALFA ROMEO", "points": 10},
+                {"position": "DNS", "driver": "Saloo911D", "team": "MERCEDES", "points": 0},
+                {"position": 1,"driver": "KillaRamo3", "team": "FERRARI", "points": 15},
+                {"position": "DNS","driver": "Yigitalp2631", "team": "ALFA ROMEO", "points": 0},
+                {"position": 1,"driver": "HoneyBadger6725", "team": "WILLIAMS", "points": 8},
+                {"position": 1,"driver": "STPPH57", "team": "TORO ROSSO", "points": 12},
+                {"position": "DNF", "driver": "SiLaHeNdaZ", "team": "TORO ROSSO", "points": 0},
+                {"position": 1,"driver": "OpsAngel98", "team": "MERCEDES", "points": 6},
+                {"position": 1,"driver": "Brecho Kanack34", "team": "RACING POINT", "points": 4},
+                {"position": "DSQ", "driver": "erolegesoy87", "team": "RACING POINT", "points": 0}
             ]
         }
     ],

@@ -65,7 +65,7 @@ app.get("/leaderboardhistory", function(req, res){
 app.get("/showRaceStat", function(req, res){
     foundRace["Standings"].sort(function(a, b){
         return b.points - a.points;
-    })
+    });
     res.render("raceStats", {foundRace : foundRace});
 });
 
