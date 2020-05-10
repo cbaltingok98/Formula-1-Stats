@@ -19,6 +19,7 @@ const driverProfile = require("./json/drivers.json");
 const raceCalendar = require("./json/raceCalendar.json");
 const worldChamps = require("./json/worldChampions.json");
 let foundRace = {};
+let season;
 
 app.get("/", function(req, res){
     driverProfile["Driver"].sort(function(a, b){
@@ -29,16 +30,18 @@ app.get("/", function(req, res){
 
 app.get("/season3", function(req, res) {
     // console.log(archive["2020"][0]["Standings"][5]);
+    season = "SEASON3";
     res.render("season3", {archive : archive});
 });
 
 app.get("/season4", function(req, res){
+    season = "SEASON4";
     res.render("season4", {archive : archive});
 })
 
 app.get("/archive/:id/show", function(req, res){
     let raceID = req.params.id;
-    archive["SEASON3"].map(race => {
+    archive[season].map(race => {
         if(race["race_id"] == raceID){
             foundRace = race;
         }
@@ -60,6 +63,9 @@ app.get("/leaderboardhistory", function(req, res){
 });
 
 app.get("/showRaceStat", function(req, res){
+    foundRace["Standings"].sort(function(a, b){
+        return b.points - a.points;
+    })
     res.render("raceStats", {foundRace : foundRace});
 });
 

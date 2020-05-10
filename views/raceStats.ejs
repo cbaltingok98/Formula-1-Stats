@@ -19,9 +19,9 @@
                 </tr>
             </thead>
             <tbody>
-                <% foundRace["Standings"].map(driver => { %>
+                <% foundRace["Standings"].map((driver, index) => { %>
                     <tr>
-                        <td><%= driver.position %></td>
+                        <td><%= index+1 %></td>
                         <td><%= driver.driver %></td>
                         <td><%= driver.team %></td>
                         <td class="points"><%= driver.points %></td>
