@@ -49,6 +49,31 @@
                 {"position": 1,"driver": "Brecho Kanack34", "team": "RACING POINT", "points": 4},
                 {"position": "DNF", "driver": "erolegesoy87", "team": "RACING POINT", "points": 0}
             ]
+        },
+        {
+            "race_id": 24,
+            "season": 4,
+            "Grand Prix": "CHINA",
+            "Date": "17/05/2020",
+            "Image": "shanghai2020.png",
+            "Winner": "StarfoxF1",
+            "2ndPlace": "FatedRacer14130",
+            "3rdPlace": "KillaRamo3",
+            "FastestLap": "STPPH57",
+            "Standings": [
+                {"position": 1,"driver": "StarfoxF1", "team": "FERRARI", "points": 25},
+                {"position": 1,"driver": "FatedRacer14130", "team": "WILLIAMS", "points": 18},
+                {"position": 1,"driver": "GM ManyEx", "team": "ALFA ROMEO", "points": 4},
+                {"position": 1, "driver": "Saloo911D", "team": "MERCEDES", "points": 8},
+                {"position": 1,"driver": "KillaRamo3", "team": "FERRARI", "points": 15},
+                {"position": "DNS","driver": "Yigitalp2631", "team": "ALFA ROMEO", "points": 0},
+                {"position": "DNF","driver": "HoneyBadger6725", "team": "WILLIAMS", "points": 0},
+                {"position": 1,"driver": "STPPH57", "team": "TORO ROSSO", "points": 13},
+                {"position": 1, "driver": "SiLaHeNdaZ", "team": "TORO ROSSO", "points": 1},
+                {"position": 1,"driver": "OpsAngel98", "team": "MERCEDES", "points": 10},
+                {"position": 1,"driver": "Brecho Kanack34", "team": "RACING POINT", "points": 6},
+                {"position": 1, "driver": "erolegesoy87", "team": "RACING POINT", "points": 2}
+            ]
         }
     ],
     "SEASON3": [
