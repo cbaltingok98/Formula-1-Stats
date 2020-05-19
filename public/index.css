@@ -208,9 +208,7 @@ table td {
     transition-duration: 0.4s;
 }
 
-.card:hover {
-    box-shadow: 4px 5px rgb(156, 156, 156);
-}
+
 
 .card .myButton {
     font-size: 16px !important;
