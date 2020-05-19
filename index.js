@@ -55,7 +55,34 @@ app.get("/worldChamp", function(req, res){
 
 app.get("/teamlist", function(req, res){
     let result;
-    res.render("teamlist", {constructor : constructor["Teams"], driverProfile : driverProfile["Driver"], result : result});
+    let newTeamList = [];
+    let newTeam = {};
+    constructor["Teams"].map(team => {
+        newTeam.name = team["name"];
+        newTeam.class = team["class"];
+        newTeam.image = team["image"];
+        newTeam.drivers = [];
+        newTeam.teamPoints = 0;
+        team["drivers"].map(driver => {
+            if(driver == "No Driver"){
+                newTeam.drivers.push(driver);
+            } else {
+                driverProfile["Driver"].map(foundDriver => {
+                    if(driver == foundDriver.driver){
+                        newTeam.drivers.push(foundDriver.driver);
+                        newTeam.teamPoints += foundDriver.points;
+                    }
+                })
+            }
+           
+        })
+        newTeamList.push(newTeam);
+        newTeam = {};
+    })
+    newTeamList.sort(function(a, b){
+        return b.teamPoints - a.teamPoints;
+    })
+    res.render("teamlist", {constructor : newTeamList});
 });
 
 app.get("/leaderboardhistory", function(req, res){

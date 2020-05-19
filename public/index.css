@@ -350,6 +350,8 @@ table td {
 .teamList .team-card .card-body h4 span{
    position: absolute;
    right: 15px;
+   top: 105px;
+   font-size: 32px;
 }
 
 .teamList .team-card:hover{
@@ -363,7 +365,7 @@ table td {
     border-radius: 5px;
 }
 .teamList .team-card .card-header {
-    font-size: 32px;
+    font-size: 28px;
     text-align: left;
     padding-left: 10px;
     border-right: 3px solid #d8d8d8;
