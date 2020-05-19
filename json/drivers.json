@@ -1,16 +1,16 @@
 {
     "Driver": [
-        {"driver": "StarfoxF1", "team": "FERRARI", "points": 70},
-        {"driver": "FatedRacer14130", "team": "WILLIAMS", "points": 61},
+        {"driver": "StarfoxF1", "team": "FERRARI", "points": 83},
+        {"driver": "FatedRacer14130", "team": "WILLIAMS", "points": 79},
         {"driver": "GM ManyEx", "team": "ALFA ROMEO", "points": 14},
-        {"driver": "Saloo911D", "team": "MERCEDES", "points": 8},
-        {"driver": "KillaRamo3", "team": "FERRARI", "points": 42},
+        {"driver": "Saloo911D", "team": "MERCEDES", "points": 33},
+        {"driver": "KillaRamo3", "team": "FERRARI", "points": 50},
         {"driver": "Yigitalp2631", "team": "ALFA ROMEO", "points": 8},
         {"driver": "HoneyBadger6725", "team": "WILLIAMS", "points": 18},
-        {"driver": "STPPH57", "team": "TORO ROSSO", "points": 40},
+        {"driver": "STPPH57", "team": "TORO ROSSO", "points": 55},
         {"driver": "SiLaHeNdaZ", "team": "TORO ROSSO", "points": 7},
-        {"driver": "OpsAngel98", "team": "MERCEDES", "points": 16},
-        {"driver": "Brecho Kanack34", "team": "RACING POINT", "points": 14},
+        {"driver": "OpsAngel98", "team": "MERCEDES", "points": 26},
+        {"driver": "Brecho Kanack34", "team": "RACING POINT", "points": 20},
         {"driver": "erolegesoy87", "team": "RACING POINT", "points": 2}
     ]
 }
