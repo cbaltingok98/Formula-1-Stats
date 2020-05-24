@@ -39,14 +39,14 @@
             "class": "racingpoint",
             "name": "RACING POINT",
             "image": "racingpoint.png",
-            "drivers": ["Brecho Kanack34", "erolegesoy87"],
+            "drivers": ["erolegesoy87", "No Driver"],
             "teamPoints": 0
         },
         {
             "class": "mclaren",
             "name": "MCLAREN",
             "image": "mclaren.png",
-            "drivers": ["No Driver", "No Driver"],
+            "drivers": ["Brecho Kanack34", "No Driver"],
             "teamPoints": 0
         },
         {
