@@ -153,6 +153,33 @@
                 {"position": 1, "driver": "MatureAuthor245", "team": "RED BULL", "points": 10},
                 {"position": 1, "driver": "PianoStream5297", "team": "RED BULL", "points": 8}
             ]
+        },
+        {
+            "race_id": 28,
+            "season": 4,
+            "Grand Prix": "CANADA",
+            "Date": "31/05/2020",
+            "Image": "montreal2020.jpg",
+            "Winner": "MatureAuthor245",
+            "2ndPlace": "StarfoxF1",
+            "3rdPlace": "FatedRacer14130",
+            "FastestLap": "Brecho Kanack34",
+            "Standings": [
+                {"position": 1, "driver": "StarfoxF1", "team": "FERRARI", "points": 18},
+                {"position": 1, "driver": "FatedRacer14130", "team": "WILLIAMS", "points": 15},
+                {"position": "DNS","driver": "GM ManyEx", "team": "ALFA ROMEO", "points": 0},
+                {"position": "DNS", "driver": "Saloo911D", "team": "MERCEDES", "points": 0},
+                {"position": 1,"driver": "KillaRamo3", "team": "FERRARI", "points": 2},
+                {"position": "DNS","driver": "Yigitalp2631", "team": "ALFA ROMEO", "points": 0},
+                {"position": 1,"driver": "HoneyBadger6725", "team": "WILLIAMS", "points": 4},
+                {"position": "DNS", "driver": "STPPH57", "team": "TORO ROSSO", "points": 0},
+                {"position": 1, "driver": "SiLaHeNdaZ", "team": "TORO ROSSO", "points": 6},
+                {"position": 1, "driver": "OpsAngel98", "team": "MERCEDES", "points": 10},
+                {"position": 1, "driver": "Brecho Kanack34", "team": "MCLAREN", "points": 9},
+                {"position": "DNF", "driver": "erolegesoy87", "team": "RACING POINT", "points": 0},
+                {"position": 1, "driver": "MatureAuthor245", "team": "RED BULL", "points": 25},
+                {"position": 1, "driver": "PianoStream5297", "team": "RED BULL", "points": 12}
+            ]
         }
     ],
     "SEASON3": [
