@@ -25,7 +25,7 @@
             "class": "renault",
             "name": "RENAULT",
             "image": "renault.png",
-            "drivers": ["No Driver", "No Driver"],
+            "drivers": ["nomenmihiaad", "No Driver"],
             "teamPoints": 0
         },
         {
