@@ -265,6 +265,35 @@
                 {"position": 1, "driver": "nomenmihiaad", "team": "RENAULT", "points": 4},
                 {"position": 1, "driver": "xCobretti85x", "team": "MCLAREN", "points": 6}
             ]
+        },
+        {
+            "race_id":32,
+            "season": 4,
+            "Grand Prix": "GERMANY",
+            "Date": "14/06/2020",
+            "Image": "hockenheim2020.jpg",
+            "Winner": "StarfoxF1",
+            "2ndPlace": "MatureAuthor245",
+            "3rdPlace": "Brecho Kanack34",
+            "FastestLap": "MatureAuthor245",
+            "Standings": [
+                {"position": 1, "driver": "StarfoxF1", "team": "FERRARI", "points": 25},
+                {"position": "DNS", "driver": "FatedRacer14130", "team": "WILLIAMS", "points": 0},
+                {"position": "DNS","driver": "GM ManyEx", "team": "ALFA ROMEO", "points": 0},
+                {"position": "DNS", "driver": "Saloo911D", "team": "MERCEDES", "points": 0},
+                {"position": 1,"driver": "KillaRamo3", "team": "FERRARI", "points": 6},
+                {"position": "DNS","driver": "Yigitalp2631", "team": "ALFA ROMEO", "points": 0},
+                {"position": 1,"driver": "HoneyBadger6725", "team": "WILLIAMS", "points": 12},
+                {"position": "DNF", "driver": "STPPH57", "team": "TORO ROSSO", "points": 0},
+                {"position": 1, "driver": "SiLaHeNdaZ", "team": "TORO ROSSO", "points": 2},
+                {"position": 1, "driver": "OpsAngel98", "team": "MERCEDES", "points": 10},
+                {"position": 1, "driver": "Brecho Kanack34", "team": "MCLAREN", "points": 15},
+                {"position": "DNS", "driver": "erolegesoy87", "team": "RACING POINT", "points": 0},
+                {"position": 1, "driver": "MatureAuthor245", "team": "RED BULL", "points": 19},
+                {"position": 1, "driver": "PianoStream5297", "team": "RED BULL", "points": 4},
+                {"position": 1, "driver": "nomenmihiaad", "team": "RENAULT", "points": 8},
+                {"position": 1, "driver": "xCobretti85x", "team": "MCLAREN", "points": 6}
+            ]
         }
     ],
     "SEASON3": [
