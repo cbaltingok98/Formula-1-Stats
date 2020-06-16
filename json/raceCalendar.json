@@ -68,7 +68,7 @@
         },
         {
             "Grand Prix": "HUNGARY",
-            "Date": "16/06/2020",
+            "Date": "17/06/2020",
             "Time": "21:00:00",
             "Image": "hungarian2020.jpg"
         },
@@ -80,7 +80,7 @@
         },
         {
             "Grand Prix": "ITALY",
-            "Date": "23/06/2020",
+            "Date": "24/06/2020",
             "Time": "21:00:00",
             "Image": "monza2020.jpg"
         },
@@ -92,7 +92,7 @@
         },
         {
             "Grand Prix": "RUSSIA",
-            "Date": "30/06/2020",
+            "Date": "01/07/2020",
             "Time": "21:00:00",
             "Image": "russian2020.jpg"
         },
@@ -104,7 +104,7 @@
         },
         {
             "Grand Prix": "MEXICO",
-            "Date": "07/07/2020",
+            "Date": "08/07/2020",
             "Time": "21:00:00",
             "Image": "mexicoCity2020.jpg"
         },
@@ -116,7 +116,7 @@
         },
         {
             "Grand Prix": "ABU DHABI",
-            "Date": "14/07/2020",
+            "Date": "15/07/2020",
             "Time": "21:00:00",
             "Image": "yasmarina2020.jpg"
         }
