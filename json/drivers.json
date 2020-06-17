@@ -1,6 +1,6 @@
 {
     "Driver": [
-        {"driver": "StarfoxF1", "team": "FERRARI", "points": 226},
+        {"driver": "StarfoxF1", "team": "FERRARI", "points": 229},
         {"driver": "FatedRacer14130", "team": "WILLIAMS", "points": 177},
         {"driver": "GM ManyEx", "team": "ALFA ROMEO", "points": 14},
         {"driver": "Saloo911D", "team": "MERCEDES", "points": 33},
@@ -13,7 +13,7 @@
         {"driver": "Brecho Kanack34", "team": "MCLAREN", "points": 76},
         {"driver": "erolegesoy87", "team": "RACING POINT", "points": 7},
         {"driver": "MatureAuthor245", "team": "RED BULL", "points": 172},
-        {"driver": "PianoStream5297", "team": "RED BULL", "points": 84},
+        {"driver": "PianoStream5297", "team": "RED BULL", "points": 81},
         {"driver": "nomenmihiaad", "team": "RENAULT", "points": 24}
     ]
 }
