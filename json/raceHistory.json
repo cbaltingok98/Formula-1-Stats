@@ -349,6 +349,35 @@
                 {"position": "DNF", "driver": "PianoStream5297", "team": "RED BULL", "points": 0},
                 {"position": "DNF", "driver": "nomenmihiaad", "team": "RENAULT", "points": 0}
             ]
+        },
+        {
+            "race_id":35,
+            "season": 4,
+            "Grand Prix": "ITALY",
+            "Date": "24/06/2020",
+            "Image": "monza2020.jpg",
+            "Winner": "MatureAuthor245",
+            "2ndPlace": "StarfoxF1",
+            "3rdPlace": "nomenmihiaad",
+            "FastestLap": "PianoStream5297",
+            "Standings": [
+                {"position": 1, "driver": "StarfoxF1", "team": "FERRARI", "points": 18},
+                {"position": "DNS", "driver": "FatedRacer14130", "team": "WILLIAMS", "points": 0},
+                {"position": "DNS","driver": "GM ManyEx", "team": "ALFA ROMEO", "points": 0},
+                {"position": "DNS", "driver": "Saloo911D", "team": "MERCEDES", "points": 0},
+                {"position": 1,"driver": "KillaRamo3", "team": "FERRARI", "points": 8},
+                {"position": "DNS","driver": "Yigitalp2631", "team": "ALFA ROMEO", "points": 0},
+                {"position": 1,"driver": "HoneyBadger6725", "team": "WILLIAMS", "points": 10},
+                {"position": "DNS", "driver": "STPPH57", "team": "TORO ROSSO", "points": 0},
+                {"position": 1, "driver": "SiLaHeNdaZ", "team": "TORO ROSSO", "points": 6},
+                {"position": "DNF", "driver": "OpsAngel98", "team": "MERCEDES", "points": 0},
+                {"position": "DNF", "driver": "Brecho Kanack34", "team": "MCLAREN", "points": 0},
+                {"position": "DNS", "driver": "erolegesoy87", "team": "RACING POINT", "points": 0},
+                {"position": 1, "driver": "MatureAuthor245", "team": "RED BULL", "points": 25},
+                {"position": 1, "driver": "PianoStream5297", "team": "RED BULL", "points": 13},
+                {"position": 1, "driver": "nomenmihiaad", "team": "RENAULT", "points": 15},
+                {"position": "DNF", "driver": "SErdaL DFm1", "team": "MCLAREN", "points": 0}
+            ]
         }
     ],
     "SEASON3": [
