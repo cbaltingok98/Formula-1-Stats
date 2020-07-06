@@ -115,8 +115,14 @@
             "Image": "usa2020.jpg"
         },
         {
-            "Grand Prix": "ABU DHABI",
+            "Grand Prix": "BRASIL",
             "Date": "15/07/2020",
+            "Time": "21:00:00",
+            "Image": "brazilian2020.jpg"
+        },
+        {
+            "Grand Prix": "ABU DHABI",
+            "Date": "19/07/2020",
             "Time": "21:00:00",
             "Image": "yasmarina2020.jpg"
         }
