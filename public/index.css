@@ -8,17 +8,18 @@ body, html {
     position: relative;
     height: 500px;
     overflow: hidden;
-    background: url("./images/FW43Header1.png") no-repeat center;
+    background: url("./images/testest.jpg") no-repeat center;
     background-size: cover;
 }
 
 .myContainer{
-    width: 80%;
+    width: 70%;
     background: #1e1e1e;
     opacity: .9;
     border: 3px solid #e10600;
     border-radius: 10px;
     padding: 25px;
+    padding-bottom: 35px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -436,7 +437,7 @@ footer h1 {
     padding: 30px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 630px) {
     .headerImage {
         height: 300px;
     }
