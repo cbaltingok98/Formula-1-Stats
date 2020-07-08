@@ -25,14 +25,14 @@
             "class": "renault",
             "name": "RENAULT",
             "image": "renault.png",
-            "drivers": ["nomenmihiaad", "No Driver"],
+            "drivers": ["nomenmihiaad", "HoneyBadger6725"],
             "teamPoints": 0
         },
         {
             "class": "williams",
             "name": "WILLIAMS",
             "image": "williams.png",
-            "drivers": ["FatedRacer14130", "HoneyBadger6725"],
+            "drivers": ["FatedRacer14130", "No Driver"],
             "teamPoints": 0
         },
         {
