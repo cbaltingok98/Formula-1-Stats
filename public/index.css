@@ -8,7 +8,7 @@ body, html {
     position: relative;
     height: 500px;
     overflow: hidden;
-    background: url("./images/testest.jpg") no-repeat center;
+    background: url("./images/mainPageBackground.jpg") no-repeat center;
     background-size: cover;
 }
 
