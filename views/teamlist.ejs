@@ -1,8 +1,8 @@
 <%- include("./partials/header") %>
 <div class="teamList">
     <div class="container">
-        <h1 id="teamChamph1">CONSTRUCTOR CHAMPIONSHIP</h1>
-        <% teamChamps.map((team) => { %>           
+        <h1 id="teamChamph1">CONSTRUCTOR CHAMPIONSHIP WINNERS</h1>
+        <% teamChamps.map((team) => { %>
             <div class="card team-card border-light mb-3" style="width: 300px;">
                 <div class="card-header <%=team["class"]%>"><%=team["name"]%> <img style="height: 50px;" src="teams/<%=team["image"]%>" alt=""></div>
                 <div class="card-body text-dark">                    
