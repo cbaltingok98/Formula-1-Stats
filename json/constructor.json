@@ -4,14 +4,14 @@
             "class": "mercedes",
             "name": "MERCEDES",
             "image": "mercedes.png",
-            "drivers": ["Saloo911D", "OpsAngel98"],
+            "drivers": ["StarfoxF1", "FatedRacer14130"],
             "teamPoints": 0
         },
         {
             "class": "ferrari",
             "name": "FERRARI",
             "image": "ferrari.png",
-            "drivers": ["StarfoxF1", "KillaRamo3"],
+            "drivers": ["KillaRamo3", "Brecho Kanack34"],
             "teamPoints": 0
         },
         {
@@ -25,42 +25,42 @@
             "class": "renault",
             "name": "RENAULT",
             "image": "renault.png",
-            "drivers": ["nomenmihiaad", "HoneyBadger6725"],
+            "drivers": ["nomenmihiaad", "Gungor CELEP"],
             "teamPoints": 0
         },
         {
             "class": "williams",
             "name": "WILLIAMS",
             "image": "williams.png",
-            "drivers": ["FatedRacer14130", "No Driver"],
+            "drivers": ["No Driver", "No Driver"],
             "teamPoints": 0
         },
         {
             "class": "racingpoint",
             "name": "RACING POINT",
             "image": "racingpoint.png",
-            "drivers": ["erolegesoy87", "No Driver"],
+            "drivers": ["No Driver", "No Driver"],
             "teamPoints": 0
         },
         {
             "class": "mclaren",
             "name": "MCLAREN",
             "image": "mclaren.png",
-            "drivers": ["Brecho Kanack34", "SErDaL DFm1"],
+            "drivers": ["Capt Carling", "Evildutchboys"],
             "teamPoints": 0
         },
         {
             "class": "tororosso",
-            "name": "TORO ROSSO",
+            "name": "ALPHA TAURI",
             "image": "tororosso.png",
-            "drivers": ["STPPH57", "SiLaHeNdaZ"],
+            "drivers": ["SiLaHeNdaZ", "SErDaL DFm1"],
             "teamPoints": 0
         },
         {
             "class": "alfaromeo",
             "name": "ALFA ROMEO",
             "image": "alfaromeo.png",
-            "drivers": ["GM ManyEx", "Yigitalp2631"],
+            "drivers": ["OpsAngel98", "HoneyBadger6725"],
             "teamPoints": 0
         },
         {
