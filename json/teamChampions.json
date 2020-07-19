@@ -1,0 +1,10 @@
+[
+    {
+        "class": "ferrari",
+        "name": "FERRARI",
+        "image": "ferrari.png",
+        "drivers": ["StarfoxF1", "KillaRamo3"],
+        "teamPoints": 569,
+        "season": 4
+    }
+]
