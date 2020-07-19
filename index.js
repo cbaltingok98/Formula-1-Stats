@@ -18,6 +18,8 @@ const constructor = require("./json/constructor.json");
 const driverProfile = require("./json/drivers.json");
 const raceCalendar = require("./json/raceCalendar.json");
 const worldChamps = require("./json/worldChampions.json");
+const teamChamps = require("./json/teamChampions.json");
+
 let foundRace = {};
 let season;
 
@@ -82,10 +84,15 @@ app.get("/teamlist", function(req, res){
     newTeamList.sort(function(a, b){
         return b.teamPoints - a.teamPoints;
     })
-    res.render("teamlist", {constructor : newTeamList});
+    res.render("teamlist", {constructor : newTeamList, teamChamps : teamChamps});
 });
 
 app.get("/leaderboardhistory", function(req, res){
+    leaderboardHistory.map(item => {
+        item["standings"].sort(function(a, b) {
+            return b.points - a.points;
+        })
+    })
     res.render("leaderboardhistory", {leaderboardHistory : leaderboardHistory});
 });
 

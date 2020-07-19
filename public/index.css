@@ -111,7 +111,7 @@ body, html {
 
 .mainContent .container h1 {
     margin-top: 50px;
-    font-size: 56px;
+    font-size: 50px;
 }
 #currentSeason {
     color: #e10600;
@@ -153,7 +153,7 @@ body, html {
     margin-top: 0;
     padding-top: 50px;
     padding-bottom: 40px;
-    font-size: 56px;
+    font-size: 50px;
     text-align: center;
 }
 
@@ -193,7 +193,7 @@ table td {
 .archiveContainer h1 {
     text-align: center;
     margin-bottom: 40px;
-    font-size: 56px;
+    font-size: 50px;
 }
 
 .archiveContainer .card h5 {
@@ -284,7 +284,7 @@ table td {
 
 .worldChamp h1 {
     padding: 50px 0 50px 0;
-    font-size: 56px;
+    font-size: 50px;
 }
 
 .worldChamp .row {
@@ -329,11 +329,11 @@ table td {
     margin-top: 0;
     padding-top: 50px;
     padding-bottom: 40px;
-    font-size: 56px;
+    font-size: 50px;
 }
 
 .leaderboardHist .container .driversChamp h1 {
-   font-size: 46px;
+   font-size: 40px;
    padding-top: 0;
 }
 
@@ -342,9 +342,18 @@ table td {
 }
 
 .teamList .container h1 {
-    margin: 40px 0 40px 0;
-    font-size: 56px;
+    margin: 30px 0 10px 0;
+    font-size: 40px;
 }
+
+.teamList .container h3 {
+    margin:  0 0 30px 0;
+    color: #e10600;
+}
+
+.teamList .container #teamChamph1 {
+    margin-bottom: 30px;
+} 
 
 .teamList .team-card .card-body h4 span{
    position: absolute;
@@ -406,7 +415,9 @@ table td {
 .teamList .team-card .haas {
     border-left: 5px solid #787878;
 }
-
+.teamList .team-card .card-team-season {
+    color: #e10600;
+}
 /* FOOTER */
 footer {
     border-top: 10px solid #e10600;

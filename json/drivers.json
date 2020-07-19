@@ -1,21 +1,21 @@
 {
     "Driver": [
-        {"driver": "StarfoxF1", "team": "FERRARI", "points": 393},
-        {"driver": "FatedRacer14130", "team": "WILLIAMS", "points": 195},
-        {"driver": "GM ManyEx", "team": "ALFA ROMEO", "points": 14},
-        {"driver": "Saloo911D", "team": "MERCEDES", "points": 33},
-        {"driver": "KillaRamo3", "team": "FERRARI", "points": 136},
-        {"driver": "Yigitalp2631", "team": "ALFA ROMEO", "points": 8},
-        {"driver": "HoneyBadger6725", "team": "RENAULT", "points": 95},
-        {"driver": "STPPH57", "team": "TORO ROSSO", "points": 106},
-        {"driver": "SiLaHeNdaZ", "team": "TORO ROSSO", "points": 68},
-        {"driver": "OpsAngel98", "team": "MERCEDES", "points": 117},
-        {"driver": "Brecho Kanack34", "team": "MCLAREN", "points": 111},
-        {"driver": "erolegesoy87", "team": "RACING POINT", "points": 7},
-        {"driver": "MatureAuthor245", "team": "RED BULL", "points": 345},
-        {"driver": "PianoStream5297", "team": "RED BULL", "points": 157},
-        {"driver": "nomenmihiaad", "team": "RENAULT", "points": 92},
-        {"driver": "SErDaL DFm1", "team": "MCLAREN", "points": 14}
+        {"driver": "StarfoxF1", "team": "FERRARI", "points": 0},
+        {"driver": "FatedRacer14130", "team": "WILLIAMS", "points": 0},
+        {"driver": "GM ManyEx", "team": "ALFA ROMEO", "points": 0},
+        {"driver": "Saloo911D", "team": "MERCEDES", "points": 0},
+        {"driver": "KillaRamo3", "team": "FERRARI", "points": 0},
+        {"driver": "Yigitalp2631", "team": "ALFA ROMEO", "points": 0},
+        {"driver": "HoneyBadger6725", "team": "RENAULT", "points": 0},
+        {"driver": "STPPH57", "team": "TORO ROSSO", "points": 0},
+        {"driver": "SiLaHeNdaZ", "team": "TORO ROSSO", "points": 0},
+        {"driver": "OpsAngel98", "team": "MERCEDES", "points": 0},
+        {"driver": "Brecho Kanack34", "team": "MCLAREN", "points": 0},
+        {"driver": "erolegesoy87", "team": "RACING POINT", "points": 0},
+        {"driver": "MatureAuthor245", "team": "RED BULL", "points": 0},
+        {"driver": "PianoStream5297", "team": "RED BULL", "points": 0},
+        {"driver": "nomenmihiaad", "team": "RENAULT", "points": 0},
+        {"driver": "SErDaL DFm1", "team": "MCLAREN", "points": 0}
     ]
 }
 
