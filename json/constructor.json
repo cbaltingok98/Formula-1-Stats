@@ -67,7 +67,7 @@
             "class": "haas",
             "name": "HAAS",
             "image": "haas.png",
-            "drivers": ["No Driver", "No Driver"],
+            "drivers": ["CHALKPFC", "No Driver"],
             "teamPoints": 0
         }
     ]
