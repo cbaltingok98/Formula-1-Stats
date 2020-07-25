@@ -39,7 +39,7 @@
             "class": "racingpoint",
             "name": "RACING POINT",
             "image": "racingpoint.png",
-            "drivers": ["No Driver", "No Driver"],
+            "drivers": ["Skunkburner93", "No Driver"],
             "teamPoints": 0
         },
         {
