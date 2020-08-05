@@ -22,16 +22,17 @@ const teamChamps = require("./json/teamChampions.json");
 
 let foundRace = {};
 let season;
+let currentSeason = "5";
+let seasonStr = "SEASON";
 
 app.get("/", function(req, res){
     driverProfile["Driver"].sort(function(a, b){
         return b.points - a.points;
     })
-    res.render("index", {driverProfile : driverProfile["Driver"], raceCalendar : raceCalendar["SEASON5"]});
+    res.render("index", {driverProfile : driverProfile["Driver"], raceCalendar : raceCalendar[seasonStr+currentSeason], currentSeason : currentSeason});
 });
 
 app.get("/season3", function(req, res) {
-    // console.log(archive["2020"][0]["Standings"][5]);
     season = "SEASON3";
     res.render("season3", {archive : archive});
 });
@@ -89,7 +90,7 @@ app.get("/teamlist", function(req, res){
     newTeamList.sort(function(a, b){
         return b.teamPoints - a.teamPoints;
     })
-    res.render("teamlist", {constructor : newTeamList, teamChamps : teamChamps});
+    res.render("teamlist", {constructor : newTeamList, teamChamps : teamChamps, currentSeason : currentSeason});
 });
 
 app.get("/leaderboardhistory", function(req, res){

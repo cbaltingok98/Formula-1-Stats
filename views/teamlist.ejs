@@ -15,7 +15,7 @@
     </div>
     <div class="container">
         <h1>CONSTRUCTOR STANDINGS</h1>
-        <h3>SEASON 5</h3>
+        <h3>SEASON <%=currentSeason%></h3>
         <% constructor.map((team, index) => { %>
                 <div class="card team-card border-light mb-3" style="width: 300px;">
                     <div class="card-header <%=team["class"]%>"><%=index+1%> <%=team["name"]%> <img style="height: 50px;" src="teams/<%=team["image"]%>" alt=""></div>
