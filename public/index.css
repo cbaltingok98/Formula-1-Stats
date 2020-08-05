@@ -76,6 +76,12 @@ body, html {
     color: white !important;
     text-decoration: none !important;
 }
+#myNavBar li .dropdown-menu {
+    background: #e10600 !important;
+}
+#myNavBar li .dropdown-item {
+    color: black !important;
+}
 #myNavBar {
     display: flex;
     align-items: center;
