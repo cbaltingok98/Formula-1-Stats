@@ -27,7 +27,7 @@ app.get("/", function(req, res){
     driverProfile["Driver"].sort(function(a, b){
         return b.points - a.points;
     })
-    res.render("index", {driverProfile : driverProfile["Driver"], raceCalendar : raceCalendar});
+    res.render("index", {driverProfile : driverProfile["Driver"], raceCalendar : raceCalendar["SEASON5"]});
 });
 
 app.get("/season3", function(req, res) {
@@ -39,6 +39,11 @@ app.get("/season3", function(req, res) {
 app.get("/season4", function(req, res){
     season = "SEASON4";
     res.render("season4", {archive : archive});
+})
+
+app.get("/season5", function(req, res){
+    season = "SEASON5";
+    res.render("season5", {archive : archive});
 })
 
 app.get("/archive/:id/show", function(req, res){
