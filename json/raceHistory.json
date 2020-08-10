@@ -1,6 +1,35 @@
 {
     "SEASON5": [
-        
+        {
+            "race_id": 42,
+            "season": 5,
+            "Grand Prix": "FRANCE",
+            "Date": "09/08/2020",
+            "Image": "frenchGP2020.jpg",
+            "Winner": "MatureAuthor245",
+            "2ndPlace": "nomenmihiaad",
+            "3rdPlace": "StarfoxF1",
+            "FastestLap": "PianoStream5297",
+            "Standings": [
+                {"position": 1, "driver": "StarfoxF1", "team": "MERCEDES", "points": 15},
+                {"position": "DNS", "driver": "FatedRacer14130", "team": "MERCEDES", "points": 0},
+                {"position": "DNS", "driver": "KillaRamo3", "team": "FERRARI", "points": 0},
+                {"position": 1, "driver": "HoneyBadger6725", "team": "ALFA ROMEO", "points": 6},
+                {"position": 1, "driver": "SiLaHeNdaZ", "team": "FERRARI", "points": 4},
+                {"position": "DNS", "driver": "OpsAngel98", "team": "ALFA ROMEO", "points": 0},
+                {"position": "DNF", "driver": "Brecho Kanack34", "team": "RED BULL", "points": 0},
+                {"position": 1, "driver": "MatureAuthor245", "team": "RED BULL", "points": 25},
+                {"position": 1, "driver": "PianoStream5297", "team": "WILLIAMS", "points": 11},
+                {"position": 1, "driver": "nomenmihiaad", "team": "RENAULT", "points": 18},
+                {"position": "DSQ", "driver": "Gungor CELEP", "team": "RENAULT", "points": 0},
+                {"position": "DNF", "driver": "Capt Carling", "team": "MCLAREN", "points": 0},
+                {"position": 1, "driver": "Evildutchboys", "team": "MCLAREN", "points": 12},
+                {"position": "DNF", "driver": "SErDaL DFm1", "team": "ALPHA TAURI", "points": 0},
+                {"position": "DNS", "driver": "CHALKPFC", "team": "HAAS", "points": 0},
+                {"position": "DNS", "driver": "Skunkburner93", "team": "RACING POINT", "points": 0},
+                {"position": 1, "driver": "Kekemen9", "team": "RACING POINT", "points": 8}
+            ]
+        }
     ],
     "SEASON4": [
         {

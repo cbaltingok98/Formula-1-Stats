@@ -11,14 +11,14 @@
             "class": "ferrari",
             "name": "FERRARI",
             "image": "ferrari.png",
-            "drivers": ["KillaRamo3", "Brecho Kanack34"],
+            "drivers": ["KillaRamo3", "SiLaHeNdaZ"],
             "teamPoints": 0
         },
         {
             "class": "redbull",
             "name": "RED BULL",
             "image": "redbull.png",
-            "drivers": ["MatureAuthor245", "PianoStream5297"],
+            "drivers": ["MatureAuthor245", "Brecho Kanack34"],
             "teamPoints": 0
         },
         {   
@@ -32,7 +32,7 @@
             "class": "williams",
             "name": "WILLIAMS",
             "image": "williams.png",
-            "drivers": ["No Driver", "No Driver"],
+            "drivers": ["PianoStream5297", "No Driver"],
             "teamPoints": 0
         },
         {
@@ -53,7 +53,7 @@
             "class": "alphatauri",
             "name": "ALPHA TAURI",
             "image": "tororosso.png",
-            "drivers": ["SiLaHeNdaZ", "SErDaL DFm1"],
+            "drivers": ["SErDaL DFm1", "No Driver"],
             "teamPoints": 0
         },
         {
