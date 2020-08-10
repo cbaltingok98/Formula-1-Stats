@@ -14,85 +14,85 @@
         },
         {
             "Grand Prix": "RUSSIA",
-            "Date": "23/08/2020",
+            "Date": "30/08/2020",
             "Time": "21:00:00 TRT",
             "Image": "russian2020.jpg"
         },
         {
             "Grand Prix": "MONACO",
-            "Date": "23/08/2020",
+            "Date": "06/09/2020",
             "Time": "21:00:00 TRT",
             "Image": "monteCarlo2020.jpg"
         },
         {
             "Grand Prix": "BRITAIN",
-            "Date": "30/08/2020",
+            "Date": "13/09/2020",
             "Time": "21:00:00 TRT",
             "Image": "silverstone2020.jpg"
         },
         {
             "Grand Prix": "AUSTRALIA",
-            "Date": "06/09/2020",
+            "Date": "20/09/2020",
             "Time": "21:00:00 TRT",
             "Image": "melbourneS4.jpg"
         },
         {
             "Grand Prix": "CANADA",
-            "Date": "13/09/2020",
+            "Date": "27/09/2020",
             "Time": "21:00:00 TRT",
             "Image": "montreal2020.jpg"
         },
         {
             "Grand Prix": "AZERBAIJAN",
-            "Date": "20/09/2020",
+            "Date": "04/10/2020",
             "Time": "21:00:00 TRT",
             "Image": "baku2020.jpg"
         },
         {
             "Grand Prix": "JAPAN",
-            "Date": "27/09/2020",
+            "Date": "11/10/2020",
             "Time": "21:00:00 TRT",
             "Image": "suzuka2020.jpg"
         },
         {
             "Grand Prix": "CHINA",
-            "Date": "04/10/2020",
+            "Date": "18/10/2020",
             "Time": "21:00:00 TRT",
             "Image": "shanghai2020.jpg"
         },
         {
             "Grand Prix": "AUSTRIA",
-            "Date": "11/10/2020",
+            "Date": "25/10/2020",
             "Time": "21:00:00 TRT",
             "Image": "austrian2020.jpg"
         },
         {
             "Grand Prix": "BELGIUM",
-            "Date": "18/10/2020",
-            "Time": "21:00:00 TRT",
-            "Image": "melbourneS4.jpg"
-        },
-        {
-            "Grand Prix": "ITALY",
-            "Date": "25/10/2020",
-            "Time": "21:00:00 TRT",
-            "Image": "monza2020.jpg"
-        },
-        {
-            "Grand Prix": "NETHERLANDS",
             "Date": "01/11/2020",
             "Time": "21:00:00 TRT",
             "Image": "melbourneS4.jpg"
         },
         {
-            "Grand Prix": "SINGAPORE",
+            "Grand Prix": "ITALY",
             "Date": "08/11/2020",
+            "Time": "21:00:00 TRT",
+            "Image": "monza2020.jpg"
+        },
+        {
+            "Grand Prix": "NETHERLANDS",
+            "Date": "15/11/2020",
+            "Time": "21:00:00 TRT",
+            "Image": "melbourneS4.jpg"
+        },
+        {
+            "Grand Prix": "SINGAPORE",
+            "Date": "22/11/2020",
             "Time": "21:00:00 TRT",
             "Image": "singapore2020.jpg"
         },
         {
             "Grand Prix": "BRAZIL",
-            "Date": "15/11/2020",
+            "Date": "29/11/2020",
             "Time": "21:00:00 TRT",
             "Image": "brazilian2020.jpg"
         }
