@@ -32,14 +32,14 @@
             "class": "williams",
             "name": "WILLIAMS",
             "image": "williams.png",
-            "drivers": ["PianoStream5297", "No Driver"],
+            "drivers": ["PianoStream5297", "SErDaL DFm1"],
             "teamPoints": 0
         },
         {
             "class": "racingpoint",
             "name": "RACING POINT",
             "image": "racingpoint.png",
-            "drivers": ["Skunkburner93", "No Driver"],
+            "drivers": ["Skunkburner93", "Kekemen9"],
             "teamPoints": 0
         },
         {
@@ -53,7 +53,7 @@
             "class": "alphatauri",
             "name": "ALPHA TAURI",
             "image": "tororosso.png",
-            "drivers": ["SErDaL DFm1", "No Driver"],
+            "drivers": ["No Driver", "No Driver"],
             "teamPoints": 0
         },
         {
