@@ -1,23 +1,23 @@
 {
     "Driver": [
-        {"driver": "StarfoxF1", "team": "MERCEDES", "points": 40},
-        {"driver": "FatedRacer14130", "team": "MERCEDES", "points": 0},
+        {"driver": "StarfoxF1", "team": "MERCEDES", "points": 58},
+        {"driver": "FatedRacer14130", "team": "MERCEDES", "points": 15},
         {"driver": "HoneyBadger6725", "team": "ALFA ROMEO", "points": 6},
-        {"driver": "SiLaHeNdaZ", "team": "FERRARI", "points": 4},
+        {"driver": "SiLaHeNdaZ", "team": "FERRARI", "points": 8},
         {"driver": "Kemence61", "team": "FERRARI", "points": 19},
         {"driver": "OpsAngel98", "team": "ALFA ROMEO", "points": 0},
-        {"driver": "Brecho Kanack34", "team": "RED BULL", "points": 0},
+        {"driver": "Brecho Kanack34", "team": "RED BULL", "points": 7},
         {"driver": "MatureAuthor245", "team": "RED BULL", "points": 25},
         {"driver": "PianoStream5297", "team": "WILLIAMS", "points": 11},
-        {"driver": "nomenmihiaad", "team": "RENAULT", "points": 18},
+        {"driver": "erolegesoy87", "team": "WILLIAMS", "points": 1},
+        {"driver": "nomenmihiaad", "team": "RENAULT", "points": 30},
         {"driver": "Gungor CELEP", "team": "RENAULT", "points": 10},
-        {"driver": "Capt Carling", "team": "MCLAREN", "points": 0},
-        {"driver": "Evildutchboys", "team": "MCLAREN", "points": 12},
-        {"driver": "SErDaL DFm1", "team": "WILLIAMS", "points": 0},
+        {"driver": "Capt Carling", "team": "MCLAREN", "points": 2},
+        {"driver": "Evildutchboys", "team": "MCLAREN", "points": 37},
         {"driver": "CHALKPFC", "team": "HAAS", "points": 0},
-        {"driver": "Skunkburner93", "team": "RACING POINT", "points": 0},
         {"driver": "Kekemen9", "team": "RACING POINT", "points": 8},
-        {"driver": "WalterWhite1855", "team": "ALPHA TAURI", "points": 12},
+        {"driver": "Yigitalp2631", "team": "RACING POINT", "points": 10},
+        {"driver": "WalterWhite1855", "team": "ALPHA TAURI", "points": 20},
         {"driver": "M10 King2", "team": "ALPHA TAURI", "points": 15}
     ]
 }
