@@ -80,7 +80,7 @@ body, html {
     background: #e10600 !important;
 }
 #myNavBar li .dropdown-item {
-    color: black !important;
+    color: white !important;
 }
 #myNavBar {
     display: flex;
