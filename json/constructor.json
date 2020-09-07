@@ -18,14 +18,14 @@
             "class": "redbull",
             "name": "RED BULL",
             "image": "redbull.png",
-            "drivers": ["MatureAuthor245", "Brecho Kanack34"],
+            "drivers": ["Brecho Kanack34", "nomenmihiaad"],
             "teamPoints": 0
         },
         {   
             "class": "renault",
             "name": "RENAULT",
             "image": "renault.png",
-            "drivers": ["nomenmihiaad", "Gungor CELEP"],
+            "drivers": ["Gungor CELEP", "No Driver"],
             "teamPoints": 0
         },
         {
@@ -67,7 +67,7 @@
             "class": "haas",
             "name": "HAAS",
             "image": "haas.png",
-            "drivers": ["CHALKPFC", "No Driver"],
+            "drivers": ["CHALKPFC", "Cellchook"],
             "teamPoints": 0
         }
     ]
