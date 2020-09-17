@@ -103,10 +103,24 @@ app.get("/leaderboardhistory", function(req, res){
 });
 
 app.get("/showRaceStat", function(req, res){
+    let counter = 1;
     foundRace["Standings"].sort(function(a, b){
         return b.points - a.points;
     });
-    res.render("raceStats", {foundRace : foundRace});
+    let selam = foundRace["Standings"];
+    selam.map((item, index) => {
+        if(item.position == 1 && index-1 >= 0 && selam[index-1].position != 1){
+            let temp = index;
+            while(selam[temp-1].position != 1){
+                let obj = selam[temp];
+                selam[temp] = selam[temp-1];
+                selam[temp-1] = obj;                
+                temp--;
+            }            
+        }
+    });
+    foundRace["Standings"] = selam;
+    res.render("raceStats", {foundRace : foundRace, counter : counter});
 });
 
 app.listen(app.get('port'), function() {
