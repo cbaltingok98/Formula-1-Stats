@@ -39,7 +39,7 @@
             "class": "racingpoint",
             "name": "RACING POINT",
             "image": "racingpoint.png",
-            "drivers": ["Yigitalp2631", "Kekemen9"],
+            "drivers": ["Yigitalp2631", "HoneyBadger6725"],
             "teamPoints": 0
         },
         {
@@ -60,7 +60,7 @@
             "class": "alfaromeo",
             "name": "ALFA ROMEO",
             "image": "alfaromeo.png",
-            "drivers": ["OpsAngel98", "HoneyBadger6725"],
+            "drivers": ["OpsAngel98", "Kekemen9"],
             "teamPoints": 0
         },
         {

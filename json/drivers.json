@@ -2,7 +2,7 @@
     "Driver": [
         {"driver": "StarfoxF1", "team": "MERCEDES", "points": 89},
         {"driver": "FatedRacer14130", "team": "MERCEDES", "points": 16},
-        {"driver": "HoneyBadger6725", "team": "ALFA ROMEO", "points": 6},
+        {"driver": "HoneyBadger6725", "team": "RACING POINT", "points": 6},
         {"driver": "SiLaHeNdaZ", "team": "FERRARI", "points": 20},
         {"driver": "Kemence61", "team": "FERRARI", "points": 21},
         {"driver": "OpsAngel98", "team": "ALFA ROMEO", "points": 0},
@@ -14,7 +14,7 @@
         {"driver": "Capt Carling", "team": "MCLAREN", "points": 28},
         {"driver": "Evildutchboys", "team": "MCLAREN", "points": 52},
         {"driver": "CHALKPFC", "team": "HAAS", "points": 0},
-        {"driver": "Kekemen9", "team": "RACING POINT", "points": 8},
+        {"driver": "Kekemen9", "team": "ALFA ROMEO", "points": 8},
         {"driver": "Yigitalp2631", "team": "RACING POINT", "points": 20},
         {"driver": "WalterWhite1855", "team": "ALPHA TAURI", "points": 41},
         {"driver": "M10 King2", "team": "ALPHA TAURI", "points": 15},
