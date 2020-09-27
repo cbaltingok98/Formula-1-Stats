@@ -25,7 +25,7 @@
             "class": "renault",
             "name": "RENAULT",
             "image": "renault.png",
-            "drivers": ["Gungor CELEP", "No Driver"],
+            "drivers": ["Gungor CELEP", "Kekemen9"],
             "teamPoints": 0
         },
         {
@@ -60,7 +60,7 @@
             "class": "alfaromeo",
             "name": "ALFA ROMEO",
             "image": "alfaromeo.png",
-            "drivers": ["OpsAngel98", "Kekemen9"],
+            "drivers": ["OpsAngel98", "No Driver"],
             "teamPoints": 0
         },
         {
