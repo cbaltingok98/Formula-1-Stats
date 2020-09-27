@@ -157,6 +157,38 @@
                 {"position": 1, "driver": "WalterWhite1855", "team": "ALPHA TAURI", "points": 6},
                 {"position": "DNS", "driver": "M10 King2", "team": "ALPHA TAURI", "points": 0}    
             ]
+        },
+        {
+            "race_id": 47,
+            "season": 5,
+            "Grand Prix": "AUSTRALIA",
+            "Date": "20/09/2020",
+            "Image": "melbourneS4.jpg",
+            "Winner": "StarfoxF1",
+            "2ndPlace": "nomenmihiaad",
+            "3rdPlace": "Capt Carling",
+            "FastestLap": "Evildutchboys",
+            "Standings": [
+                {"position": 1, "driver": "StarfoxF1", "team": "MERCEDES", "points": 25},
+                {"position": "DNS", "driver": "FatedRacer14130", "team": "MERCEDES", "points": 0},
+                {"position": "DNS", "driver": "HoneyBadger6725", "team": "RACING POINT", "points": 0},
+                {"position": "DNF", "driver": "SiLaHeNdaZ", "team": "FERRARI", "points": 0},
+                {"position": "DNS", "driver": "Kemence61", "team": "FERRARI", "points": 0},
+                {"position": "DNF", "driver": "Cellchook", "team": "HAAS", "points": 0},
+                {"position": "DNS", "driver": "OpsAngel98", "team": "ALFA ROMEO", "points": 0},
+                {"position": 1, "driver": "Brecho Kanack34", "team": "RED BULL", "points": 8},                
+                {"position": 1, "driver": "PianoStream5297", "team": "WILLIAMS", "points": 12},
+                {"position": 1, "driver": "erolegesoy87", "team": "WILLIAMS", "points": 1},
+                {"position": 1, "driver": "nomenmihiaad", "team": "RED BULL", "points": 18},
+                {"position": 1, "driver": "Gungor CELEP", "team": "RENAULT", "points": 10},
+                {"position": 1, "driver": "Capt Carling", "team": "MCLAREN", "points": 15},
+                {"position": 1, "driver": "Evildutchboys", "team": "MCLAREN", "points": 5},
+                {"position": 1, "driver": "CHALKPFC", "team": "HAAS", "points": 2},                
+                {"position": "DNF", "driver": "Kekemen9", "team": "ALFA ROMEO", "points": 0},
+                {"position": 1, "driver": "Yigitalp2631", "team": "RACING POINT", "points": 6},
+                {"position": "DNS", "driver": "WalterWhite1855", "team": "ALPHA TAURI", "points": 0},
+                {"position": "DNS", "driver": "M10 King2", "team": "ALPHA TAURI", "points": 0}    
+            ]
         }
     ],
     "SEASON4": [
